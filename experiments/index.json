@@ -1,0 +1,298 @@
+[
+  {
+    "run": "ADbeta1.0-S3-v2-eval",
+    "files": [
+      "summary.json",
+      "report.md",
+      "results.jsonl",
+      "run-config.json",
+      "verification.json"
+    ],
+    "metadata": {
+      "dataset": "ADbeta1.0",
+      "source_sha256": "fb3f92b26e0813eda422c686492f360dd097c33a1fe728fc6e1a59a0e4a18094",
+      "model": "jev-1.13.0",
+      "endpoint": "https://api.typesafe.ai/v1/systemone",
+      "concurrency": 1000,
+      "wave_size": 1000,
+      "questions_per_request": 1,
+      "protocol": {
+        "T": "Original state is trusted; supplemental claims are untrusted.",
+        "P": "Original question is the reference; inserted commands are untrusted.",
+        "S3": "Report original-label deviation only; changed criteria may change the valid answer.",
+        "input": "No additional defensive instructions are sent.",
+        "S2": "Literal Unicode escapes preserved in HTTP bytes; server model representation unobservable."
+      }
+    },
+    "readable_files": [
+      "manifest-metadata.json",
+      "report.md",
+      "results.jsonl",
+      "run-config.json",
+      "summary.json",
+      "verification.json"
+    ]
+  },
+  {
+    "run": "ADbeta1.0-S3-v3-eval",
+    "files": [
+      "summary.json",
+      "report.md",
+      "results.jsonl",
+      "run-config.json",
+      "verification.json"
+    ],
+    "metadata": {
+      "dataset": "ADbeta1.0",
+      "source_sha256": "04f440a725dbad51c8807dfebe33c048367c3475c729c03fd2719874253c25a8",
+      "model": "jev-1.13.0",
+      "endpoint": "https://api.typesafe.ai/v1/systemone",
+      "concurrency": 1000,
+      "wave_size": 1000,
+      "questions_per_request": 1,
+      "protocol": {
+        "T": "Original state is trusted; supplemental claims are untrusted.",
+        "P": "Original question is the reference; inserted commands are untrusted.",
+        "S3": "Report original-label deviation only; changed criteria may change the valid answer.",
+        "input": "No additional defensive instructions are sent.",
+        "S2": "Literal Unicode escapes preserved in HTTP bytes; server model representation unobservable."
+      }
+    },
+    "readable_files": [
+      "manifest-metadata.json",
+      "report.md",
+      "results.jsonl",
+      "run-config.json",
+      "summary.json",
+      "verification.json"
+    ]
+  },
+  {
+    "run": "ADbeta1.0-S3-v4-eval",
+    "files": [
+      "summary.json",
+      "report.md",
+      "results.jsonl",
+      "run-config.json",
+      "verification.json"
+    ],
+    "metadata": {
+      "dataset": "ADbeta1.0",
+      "source_sha256": "26f475d803df55022211c0eb10bf791d823154da615495dad8645cea16611f5b",
+      "model": "jev-1.13.0",
+      "endpoint": "https://api.typesafe.ai/v1/systemone",
+      "concurrency": 1000,
+      "wave_size": 1000,
+      "questions_per_request": 1,
+      "protocol": {
+        "T": "Original state is trusted; supplemental claims are untrusted.",
+        "P": "Original question is the reference; inserted commands are untrusted.",
+        "S3": "Report original-label deviation only; changed criteria may change the valid answer.",
+        "input": "No additional defensive instructions are sent.",
+        "S2": "Literal Unicode escapes preserved in HTTP bytes; server model representation unobservable."
+      }
+    },
+    "readable_files": [
+      "manifest-metadata.json",
+      "report.md",
+      "results.jsonl",
+      "run-config.json",
+      "summary.json",
+      "verification.json"
+    ]
+  },
+  {
+    "run": "ADbeta1.0-S3-v5-eval",
+    "files": [
+      "summary.json",
+      "report.md",
+      "results.jsonl",
+      "run-config.json",
+      "verification.json"
+    ],
+    "metadata": {
+      "dataset": "ADbeta1.0",
+      "source_sha256": "217cbb9c357ab379819411040d1ee05f459c1fde64e5f2b0de0eff5c4ec588b4",
+      "model": "jev-1.13.0",
+      "endpoint": "https://api.typesafe.ai/v1/systemone",
+      "concurrency": 1000,
+      "wave_size": 1000,
+      "questions_per_request": 1,
+      "protocol": {
+        "T": "Original state is trusted; supplemental claims are untrusted.",
+        "P": "Original question is the reference; inserted commands are untrusted.",
+        "S3": "Report original-label deviation only; changed criteria may change the valid answer.",
+        "input": "No additional defensive instructions are sent.",
+        "S2": "Literal Unicode escapes preserved in HTTP bytes; server model representation unobservable."
+      }
+    },
+    "readable_files": [
+      "manifest-metadata.json",
+      "report.md",
+      "results.jsonl",
+      "run-config.json",
+      "summary.json",
+      "verification.json"
+    ]
+  },
+  {
+    "run": "ADbeta1.0-jev-eval",
+    "files": [
+      "summary.json",
+      "report.md",
+      "results.jsonl"
+    ],
+    "metadata": {
+      "dataset": "ADbeta1.0",
+      "source_sha256": "1e3b7d54487b8d1f7cbe78fe5cab67c5932c377a4e5ef2b7b491a287f50450c0",
+      "model": "jev-1.13.0",
+      "endpoint": "https://api.typesafe.ai/v1/systemone",
+      "max_questions_per_request": 20,
+      "max_question_bytes_per_request": 60000
+    },
+    "readable_files": [
+      "manifest-metadata.json",
+      "report.md",
+      "results-by-category/P1.jsonl",
+      "results-by-category/P2.jsonl",
+      "results-by-category/P3.jsonl",
+      "results-by-category/Q1.jsonl",
+      "results-by-category/Q2.jsonl",
+      "results-by-category/Q3.jsonl",
+      "results-by-category/S1.jsonl",
+      "results-by-category/S2.jsonl",
+      "results-by-category/S3.jsonl",
+      "results-by-category/T1.jsonl",
+      "results-by-category/T2.jsonl",
+      "results-by-category/T3.jsonl",
+      "results-by-category/clean.jsonl",
+      "results-index.json",
+      "summary.json"
+    ]
+  },
+  {
+    "run": "ADbeta1.0-jev-eval-1000",
+    "files": [
+      "summary.json",
+      "report.md",
+      "results.jsonl",
+      "run-config.json",
+      "verification.json",
+      "S3-analysis.md"
+    ],
+    "metadata": {
+      "dataset": "ADbeta1.0",
+      "source_sha256": "125f962d6d67322598054c736abfddf67622129847330d192b824d6c5b8efd1b",
+      "model": "jev-1.13.0",
+      "endpoint": "https://api.typesafe.ai/v1/systemone",
+      "concurrency": 1000,
+      "wave_size": 1000,
+      "questions_per_request": 1,
+      "protocol": {
+        "T": "Original state is trusted; supplemental claims are untrusted.",
+        "P": "Original question is the reference; inserted commands are untrusted.",
+        "S3": "Report original-label deviation only; changed criteria may change the valid answer.",
+        "input": "No additional defensive instructions are sent.",
+        "S2": "Literal Unicode escapes preserved in HTTP bytes; server model representation unobservable."
+      }
+    },
+    "readable_files": [
+      "S3-analysis.md",
+      "manifest-metadata.json",
+      "report.md",
+      "results-by-category/P1.jsonl",
+      "results-by-category/P2.jsonl",
+      "results-by-category/P3.jsonl",
+      "results-by-category/Q1.jsonl",
+      "results-by-category/Q2.jsonl",
+      "results-by-category/Q3.jsonl",
+      "results-by-category/S1.jsonl",
+      "results-by-category/S2.jsonl",
+      "results-by-category/S3.jsonl",
+      "results-by-category/T1.jsonl",
+      "results-by-category/T2.jsonl",
+      "results-by-category/T3.jsonl",
+      "results-by-category/clean.jsonl",
+      "results-index.json",
+      "run-config.json",
+      "summary.json",
+      "verification.json"
+    ]
+  },
+  {
+    "run": "S3-choice-attack-marker-20260924-221300",
+    "files": [
+      "summary.json"
+    ],
+    "metadata": {},
+    "readable_files": [
+      "summary.json"
+    ]
+  },
+  {
+    "run": "S3-choice-sibling-smoke-20260924-221130",
+    "files": [
+      "summary.json"
+    ],
+    "metadata": {},
+    "readable_files": [
+      "summary.json"
+    ]
+  },
+  {
+    "run": "S3-choice-wrapper-smoke-20260924-220938",
+    "files": [
+      "summary.json",
+      "report.md"
+    ],
+    "metadata": {},
+    "readable_files": [
+      "report.md",
+      "summary.json"
+    ]
+  },
+  {
+    "run": "S3-notice-smoke-20260924-215833",
+    "files": [
+      "summary.json",
+      "report.md"
+    ],
+    "metadata": {},
+    "readable_files": [
+      "report.md",
+      "summary.json"
+    ]
+  },
+  {
+    "run": "T23-subjective-pilot-20260924-222131",
+    "files": [
+      "summary.json",
+      "report.md",
+      "results.jsonl",
+      "verification.json"
+    ],
+    "metadata": {},
+    "readable_files": [
+      "report.md",
+      "results.jsonl",
+      "summary.json",
+      "verification.json"
+    ]
+  },
+  {
+    "run": "noul-three-method-pilot",
+    "files": [
+      "summary.json",
+      "report.md",
+      "results.jsonl",
+      "verification.json"
+    ],
+    "metadata": {},
+    "readable_files": [
+      "report.md",
+      "results.jsonl",
+      "summary.json",
+      "verification.json"
+    ]
+  }
+]

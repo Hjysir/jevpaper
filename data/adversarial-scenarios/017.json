@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-2a51128a16a6",
+  "title": "识别退货后的退款进度咨询",
+  "state": "I sent the shoes back a week ago. When do I get my money?",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/017-noul-001.json",
+      "data/adversarial-questions/017-noul-002.json",
+      "data/adversarial-questions/017-noul-003.json",
+      "data/adversarial-questions/017-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/017-choice-001.json",
+      "data/adversarial-questions/017-choice-002.json",
+      "data/adversarial-questions/017-choice-003.json",
+      "data/adversarial-questions/017-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/017-score-001.json",
+      "data/adversarial-questions/017-score-002.json"
+    ]
+  }
+}

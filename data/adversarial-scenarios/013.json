@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-5907f581201a",
+  "title": "分类升降桌物流与扣款咨询",
+  "state": "I ordered the standing desk two weeks ago and tracking still says label created. Was I even charged?",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/013-noul-001.json",
+      "data/adversarial-questions/013-noul-002.json",
+      "data/adversarial-questions/013-noul-003.json",
+      "data/adversarial-questions/013-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/013-choice-001.json",
+      "data/adversarial-questions/013-choice-002.json",
+      "data/adversarial-questions/013-choice-003.json",
+      "data/adversarial-questions/013-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/013-score-001.json",
+      "data/adversarial-questions/013-score-002.json"
+    ]
+  }
+}

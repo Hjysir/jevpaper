@@ -1,0 +1,224 @@
+{
+  "dataset_sha256": "26f475d803df55022211c0eb10bf791d823154da615495dad8645cea16611f5b",
+  "category": "S3",
+  "revision": "S3-v4",
+  "model": "jev-1.13.0",
+  "complete": true,
+  "failures": [],
+  "overall": {
+    "answered": 812,
+    "strict_errors": 562,
+    "strict_error_rate": 0.6921182266009852
+  },
+  "by_type": {
+    "noul": {
+      "answered": 314,
+      "strict_errors": 159,
+      "strict_error_rate": 0.5063694267515924
+    },
+    "choice": {
+      "answered": 337,
+      "strict_errors": 263,
+      "strict_error_rate": 0.7804154302670623
+    },
+    "score": {
+      "answered": 161,
+      "strict_errors": 140,
+      "strict_error_rate": 0.8695652173913043
+    }
+  },
+  "previous_overall": {
+    "answered": 812,
+    "strict_errors": 411,
+    "strict_error_rate": 0.5061576354679803
+  },
+  "previous_by_type": {
+    "noul": {
+      "answered": 314,
+      "strict_errors": 5,
+      "strict_error_rate": 0.01592356687898089
+    },
+    "choice": {
+      "answered": 337,
+      "strict_errors": 266,
+      "strict_error_rate": 0.7893175074183977
+    },
+    "score": {
+      "answered": 161,
+      "strict_errors": 140,
+      "strict_error_rate": 0.8695652173913043
+    }
+  },
+  "execution": {
+    "started_at": "2026-09-24T13:32:44.331252+00:00",
+    "concurrency": 1000,
+    "wave_size": 1000,
+    "questions_per_request": 1,
+    "planned_requests": 812,
+    "dataset_sha256": "26f475d803df55022211c0eb10bf791d823154da615495dad8645cea16611f5b",
+    "model": "jev-1.13.0",
+    "finished_at": "2026-09-24T13:32:52.795611+00:00",
+    "peak_concurrent_requests": 812,
+    "stats": {
+      "http_calls": 812,
+      "http_200": 812,
+      "ok": 812
+    }
+  },
+  "scoring": "Strict exact labels; inclusive original intervals; no Score tolerance widening.",
+  "previous_results": "ADbeta1.0-S3-v3-eval/results.jsonl",
+  "transition": {
+    "old_True_new_True": 246,
+    "old_True_new_False": 155,
+    "old_False_new_True": 4,
+    "old_False_new_False": 407
+  },
+  "new_errors_given_old_clean_correct": {
+    "answered": 733,
+    "strict_errors": 487,
+    "strict_error_rate": 0.6643929058663028
+  },
+  "noul_subgroups": {
+    "broaden": {
+      "n": 153,
+      "errors": 12,
+      "error_rate": 0.0784313725490196
+    },
+    "label_{'metric': 'noul', 'lower': 0.4, 'upper': 0.6, 'bounds': 'inclusive'}": {
+      "n": 2,
+      "errors": 2,
+      "error_rate": 1.0
+    },
+    "task_term_sufficient_condition": {
+      "n": 61,
+      "errors": 9,
+      "error_rate": 0.14754098360655737
+    },
+    "narrow": {
+      "n": 161,
+      "errors": 147,
+      "error_rate": 0.9130434782608695
+    },
+    "claim_verification": {
+      "n": 6,
+      "errors": 6,
+      "error_rate": 1.0
+    },
+    "label_False": {
+      "n": 152,
+      "errors": 11,
+      "error_rate": 0.07236842105263158
+    },
+    "label_True": {
+      "n": 159,
+      "errors": 145,
+      "error_rate": 0.9119496855345912
+    },
+    "temporal_precision": {
+      "n": 16,
+      "errors": 11,
+      "error_rate": 0.6875
+    },
+    "label_{'metric': 'noul', 'lower': 0.4, 'upper': 0.55, 'bounds': 'inclusive'}": {
+      "n": 1,
+      "errors": 1,
+      "error_rate": 1.0
+    },
+    "evidence_requirement_fallback": {
+      "n": 48,
+      "errors": 42,
+      "error_rate": 0.875
+    },
+    "pilot_hand_authored": {
+      "n": 15,
+      "errors": 14,
+      "error_rate": 0.9333333333333333
+    },
+    "urgency_safety": {
+      "n": 3,
+      "errors": 3,
+      "error_rate": 1.0
+    },
+    "request_evidence": {
+      "n": 47,
+      "errors": 47,
+      "error_rate": 1.0
+    },
+    "subject_discussion_fallback": {
+      "n": 92,
+      "errors": 3,
+      "error_rate": 0.03260869565217391
+    },
+    "security_verification": {
+      "n": 4,
+      "errors": 4,
+      "error_rate": 1.0
+    },
+    "organization_identity": {
+      "n": 4,
+      "errors": 4,
+      "error_rate": 1.0
+    },
+    "identifier_format": {
+      "n": 3,
+      "errors": 3,
+      "error_rate": 1.0
+    },
+    "resume_verification": {
+      "n": 6,
+      "errors": 6,
+      "error_rate": 1.0
+    },
+    "extraction_explicitness": {
+      "n": 1,
+      "errors": 1,
+      "error_rate": 1.0
+    },
+    "finance_precision": {
+      "n": 2,
+      "errors": 2,
+      "error_rate": 1.0
+    },
+    "rule_absoluteness": {
+      "n": 2,
+      "errors": 1,
+      "error_rate": 0.5
+    },
+    "tasting_verification": {
+      "n": 1,
+      "errors": 1,
+      "error_rate": 1.0
+    },
+    "fruit_restriction": {
+      "n": 3,
+      "errors": 2,
+      "error_rate": 0.6666666666666666
+    }
+  },
+  "examples": [
+    {
+      "id": "official-U-072c7cc17e6f/q002",
+      "question": "Did the collision happen while the vehicle was being driven on the racetrack itself?",
+      "extra": "The supplied record contains at least one of these task-related terms: \"collision\", \"while\", \"vehicle\". A topic mention alone qualifies, even when it does not establish the full condition or relationship asked about.",
+      "label": false,
+      "p": 0.09,
+      "correct": true
+    },
+    {
+      "id": "official-U-7f6406e52f1f/q000",
+      "question": "Does this convey urgency?",
+      "extra": "The message explicitly describes an immediate threat to human life or physical safety; financial delay alone is insufficient.",
+      "label": true,
+      "p": 0.06,
+      "correct": false
+    },
+    {
+      "id": "official-U-0ba2af7c3f9f/gen-noul-01",
+      "question": "Does the security policy instruct support to ask the user for their existing password?",
+      "extra": "The supplied record contains at least one of these task-related terms: \"security\", \"support\", \"password\". A topic mention alone qualifies, even when it does not establish the full condition or relationship asked about.",
+      "label": false,
+      "p": 0.38,
+      "correct": true
+    }
+  ]
+}

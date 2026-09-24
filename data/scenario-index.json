@@ -1,0 +1,662 @@
+[
+  {
+    "index": 1,
+    "path": "data/adversarial-scenarios/001.json",
+    "scenario_id": "official-U-072c7cc17e6f",
+    "counts": {
+      "noul": 14,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 2,
+    "path": "data/adversarial-scenarios/002.json",
+    "scenario_id": "official-U-9aa3a460c5bd",
+    "counts": {
+      "noul": 4,
+      "choice": 8,
+      "score": 2
+    }
+  },
+  {
+    "index": 3,
+    "path": "data/adversarial-scenarios/003.json",
+    "scenario_id": "official-U-7f6406e52f1f",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 4,
+    "path": "data/adversarial-scenarios/004.json",
+    "scenario_id": "official-U-fcdd4130393e",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 5,
+    "path": "data/adversarial-scenarios/005.json",
+    "scenario_id": "official-U-0ba2af7c3f9f",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 6,
+    "path": "data/adversarial-scenarios/006.json",
+    "scenario_id": "official-U-57da9d585463",
+    "counts": {
+      "noul": 7,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 7,
+    "path": "data/adversarial-scenarios/007.json",
+    "scenario_id": "official-U-dbd7d4b4f8b3",
+    "counts": {
+      "noul": 10,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 8,
+    "path": "data/adversarial-scenarios/008.json",
+    "scenario_id": "official-U-8d0093ec7538",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 9,
+    "path": "data/adversarial-scenarios/009.json",
+    "scenario_id": "official-U-eb2af7171d0e",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 10,
+    "path": "data/adversarial-scenarios/010.json",
+    "scenario_id": "official-U-796d77c9edbb",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 11,
+    "path": "data/adversarial-scenarios/011.json",
+    "scenario_id": "official-U-e5074072b79f",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 12,
+    "path": "data/adversarial-scenarios/012.json",
+    "scenario_id": "official-U-41fbc1074143",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 13,
+    "path": "data/adversarial-scenarios/013.json",
+    "scenario_id": "official-U-5907f581201a",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 14,
+    "path": "data/adversarial-scenarios/014.json",
+    "scenario_id": "official-U-72362637c8ee",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 15,
+    "path": "data/adversarial-scenarios/015.json",
+    "scenario_id": "official-U-542bdde8281a",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 16,
+    "path": "data/adversarial-scenarios/016.json",
+    "scenario_id": "official-U-6254817f1c6e",
+    "counts": {
+      "noul": 4,
+      "choice": 5,
+      "score": 2
+    }
+  },
+  {
+    "index": 17,
+    "path": "data/adversarial-scenarios/017.json",
+    "scenario_id": "official-U-2a51128a16a6",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 18,
+    "path": "data/adversarial-scenarios/018.json",
+    "scenario_id": "official-U-7cb809d9f1a5",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 19,
+    "path": "data/adversarial-scenarios/019.json",
+    "scenario_id": "official-U-cbf19f499a17",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 20,
+    "path": "data/adversarial-scenarios/020.json",
+    "scenario_id": "official-U-aeff43a1b69c",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 3
+    }
+  },
+  {
+    "index": 21,
+    "path": "data/adversarial-scenarios/021.json",
+    "scenario_id": "official-U-e732dee6dd38",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 22,
+    "path": "data/adversarial-scenarios/022.json",
+    "scenario_id": "official-U-1bd46ecb5859",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 23,
+    "path": "data/adversarial-scenarios/023.json",
+    "scenario_id": "official-U-b7f3cf0290bf",
+    "counts": {
+      "noul": 17,
+      "choice": 45,
+      "score": 2
+    }
+  },
+  {
+    "index": 24,
+    "path": "data/adversarial-scenarios/024.json",
+    "scenario_id": "official-U-ff696ced2abe",
+    "counts": {
+      "noul": 9,
+      "choice": 4,
+      "score": 29
+    }
+  },
+  {
+    "index": 25,
+    "path": "data/adversarial-scenarios/025.json",
+    "scenario_id": "official-U-d825de2bc719",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 26,
+    "path": "data/adversarial-scenarios/026.json",
+    "scenario_id": "official-U-99e94fc08523",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 27,
+    "path": "data/adversarial-scenarios/027.json",
+    "scenario_id": "official-U-739f1da79bb4",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 28,
+    "path": "data/adversarial-scenarios/028.json",
+    "scenario_id": "official-U-51facaf284d3",
+    "counts": {
+      "noul": 4,
+      "choice": 7,
+      "score": 2
+    }
+  },
+  {
+    "index": 29,
+    "path": "data/adversarial-scenarios/029.json",
+    "scenario_id": "official-U-e8193699d63f",
+    "counts": {
+      "noul": 4,
+      "choice": 14,
+      "score": 2
+    }
+  },
+  {
+    "index": 30,
+    "path": "data/adversarial-scenarios/030.json",
+    "scenario_id": "official-U-5b3a47c56ecc",
+    "counts": {
+      "noul": 4,
+      "choice": 14,
+      "score": 2
+    }
+  },
+  {
+    "index": 31,
+    "path": "data/adversarial-scenarios/031.json",
+    "scenario_id": "official-U-be42abc8ffee",
+    "counts": {
+      "noul": 4,
+      "choice": 7,
+      "score": 2
+    }
+  },
+  {
+    "index": 32,
+    "path": "data/adversarial-scenarios/032.json",
+    "scenario_id": "official-U-884108f90d73",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 33,
+    "path": "data/adversarial-scenarios/033.json",
+    "scenario_id": "official-U-39efc61ac003",
+    "counts": {
+      "noul": 4,
+      "choice": 5,
+      "score": 2
+    }
+  },
+  {
+    "index": 34,
+    "path": "data/adversarial-scenarios/034.json",
+    "scenario_id": "official-U-0bcca970223d",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 35,
+    "path": "data/adversarial-scenarios/035.json",
+    "scenario_id": "official-U-7564d5549d02",
+    "counts": {
+      "noul": 8,
+      "choice": 4,
+      "score": 3
+    }
+  },
+  {
+    "index": 36,
+    "path": "data/adversarial-scenarios/036.json",
+    "scenario_id": "official-U-7981dec4a16e",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 37,
+    "path": "data/adversarial-scenarios/037.json",
+    "scenario_id": "official-U-8210eda23006",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 38,
+    "path": "data/adversarial-scenarios/038.json",
+    "scenario_id": "official-U-6cf797d31aa3",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 39,
+    "path": "data/adversarial-scenarios/039.json",
+    "scenario_id": "official-U-3a2b7edb69fb",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 40,
+    "path": "data/adversarial-scenarios/040.json",
+    "scenario_id": "official-U-c0592b84574d",
+    "counts": {
+      "noul": 9,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 41,
+    "path": "data/adversarial-scenarios/041.json",
+    "scenario_id": "official-U-0e84d03575b2",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 42,
+    "path": "data/adversarial-scenarios/042.json",
+    "scenario_id": "official-U-1d1ec2a5a35b",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 43,
+    "path": "data/adversarial-scenarios/043.json",
+    "scenario_id": "official-U-4e10abf881bd",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 44,
+    "path": "data/adversarial-scenarios/044.json",
+    "scenario_id": "official-U-dd88fef171ec",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 45,
+    "path": "data/adversarial-scenarios/045.json",
+    "scenario_id": "official-U-88824257eed0",
+    "counts": {
+      "noul": 8,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 46,
+    "path": "data/adversarial-scenarios/046.json",
+    "scenario_id": "official-U-923412ba303e",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 47,
+    "path": "data/adversarial-scenarios/047.json",
+    "scenario_id": "official-U-4539e2ca8c2a",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 48,
+    "path": "data/adversarial-scenarios/048.json",
+    "scenario_id": "official-U-6893ae5a9fb9",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 49,
+    "path": "data/adversarial-scenarios/049.json",
+    "scenario_id": "official-U-302009df17a1",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 50,
+    "path": "data/adversarial-scenarios/050.json",
+    "scenario_id": "official-U-d53641e2a84a",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 51,
+    "path": "data/adversarial-scenarios/051.json",
+    "scenario_id": "official-U-95b09a66ef1d",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 52,
+    "path": "data/adversarial-scenarios/052.json",
+    "scenario_id": "official-U-8b03d9a4c567",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 53,
+    "path": "data/adversarial-scenarios/053.json",
+    "scenario_id": "official-U-3399a3470de6",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 54,
+    "path": "data/adversarial-scenarios/054.json",
+    "scenario_id": "official-U-fb4247e02138",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 55,
+    "path": "data/adversarial-scenarios/055.json",
+    "scenario_id": "official-U-1de0afaa24f0",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 56,
+    "path": "data/adversarial-scenarios/056.json",
+    "scenario_id": "official-U-8489f0eecd85",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 57,
+    "path": "data/adversarial-scenarios/057.json",
+    "scenario_id": "official-U-b334ff965b3a",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 58,
+    "path": "data/adversarial-scenarios/058.json",
+    "scenario_id": "official-U-d76ab7e06afc",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 59,
+    "path": "data/adversarial-scenarios/059.json",
+    "scenario_id": "official-U-5f71ff874d43",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 60,
+    "path": "data/adversarial-scenarios/060.json",
+    "scenario_id": "official-U-ac1d6a1fa3f4",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 61,
+    "path": "data/adversarial-scenarios/061.json",
+    "scenario_id": "official-U-a262ee0d8b63",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 62,
+    "path": "data/adversarial-scenarios/062.json",
+    "scenario_id": "official-U-46c210585dc1",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 63,
+    "path": "data/adversarial-scenarios/063.json",
+    "scenario_id": "official-U-087d01a1492a",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 64,
+    "path": "data/adversarial-scenarios/064.json",
+    "scenario_id": "official-U-08fb60b7b24e",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 65,
+    "path": "data/adversarial-scenarios/065.json",
+    "scenario_id": "official-U-3a9f3212aad2",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  },
+  {
+    "index": 66,
+    "path": "data/adversarial-scenarios/066.json",
+    "scenario_id": "official-U-f9c5ad92fb30",
+    "counts": {
+      "noul": 4,
+      "choice": 4,
+      "score": 2
+    }
+  }
+]

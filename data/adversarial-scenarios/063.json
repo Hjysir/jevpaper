@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-087d01a1492a",
+  "title": "查询英伟达本季最大回撤并绘图",
+  "state": "worst drawdown for nvda this quarter, and chart it please",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/063-noul-001.json",
+      "data/adversarial-questions/063-noul-002.json",
+      "data/adversarial-questions/063-noul-003.json",
+      "data/adversarial-questions/063-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/063-choice-001.json",
+      "data/adversarial-questions/063-choice-002.json",
+      "data/adversarial-questions/063-choice-003.json",
+      "data/adversarial-questions/063-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/063-score-001.json",
+      "data/adversarial-questions/063-score-002.json"
+    ]
+  }
+}

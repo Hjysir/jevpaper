@@ -1,0 +1,31 @@
+{
+  "scenario_id": "official-U-739f1da79bb4",
+  "title": "判断检索段落能否回答令牌过期问题",
+  "state": {
+    "query": "Refresh tokens expire after 30 days - how do I extend that window?",
+    "passage": {
+      "id": "sessions-01",
+      "title": "User sessions: What is a session?",
+      "text": "A session is created when a user signs in. By default, it lasts indefinitely and a user can have an unlimited number of active sessions on as many devices.\n\nA session is represented by the Supabase Auth access token in the form of a JWT, and a refresh token which is a unique string.\n\nAccess tokens are designed to be short lived, usually between 5 minutes and 1 hour while refresh tokens never expire but can only be used once. You can exchange a refresh token only once to get a new access and refresh token pair.\n\nThis process is called **refreshing the session.**\n\nA session terminates, depending on configuration, when:\n- The user clicks sign out.\n- The user changes their password or performs a security sensitive action.\n- It times out due to inactivity.\n- It reaches its maximum lifetime.\n- A user signs in on another device.",
+      "source_type": "official_documentation"
+    }
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/027-noul-001.json",
+      "data/adversarial-questions/027-noul-002.json",
+      "data/adversarial-questions/027-noul-003.json",
+      "data/adversarial-questions/027-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/027-choice-001.json",
+      "data/adversarial-questions/027-choice-002.json",
+      "data/adversarial-questions/027-choice-003.json",
+      "data/adversarial-questions/027-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/027-score-001.json",
+      "data/adversarial-questions/027-score-002.json"
+    ]
+  }
+}

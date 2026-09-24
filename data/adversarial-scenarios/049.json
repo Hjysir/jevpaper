@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-302009df17a1",
+  "title": "PDF 与 CSV 导出故障",
+  "state": "Export to PDF fails with a spinner that never finishes. Some of our team say CSV export still works for them, others say it fails too.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/049-noul-001.json",
+      "data/adversarial-questions/049-noul-002.json",
+      "data/adversarial-questions/049-noul-003.json",
+      "data/adversarial-questions/049-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/049-choice-001.json",
+      "data/adversarial-questions/049-choice-002.json",
+      "data/adversarial-questions/049-choice-003.json",
+      "data/adversarial-questions/049-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/049-score-001.json",
+      "data/adversarial-questions/049-score-002.json"
+    ]
+  }
+}

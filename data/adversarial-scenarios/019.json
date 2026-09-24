@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-cbf19f499a17",
+  "title": "评估 Safari 导出崩溃的严重程度",
+  "state": "The export button crashes the settings page in Safari. It works in Chrome, but a few of our customers only use Safari.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/019-noul-001.json",
+      "data/adversarial-questions/019-noul-002.json",
+      "data/adversarial-questions/019-noul-003.json",
+      "data/adversarial-questions/019-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/019-choice-001.json",
+      "data/adversarial-questions/019-choice-002.json",
+      "data/adversarial-questions/019-choice-003.json",
+      "data/adversarial-questions/019-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/019-score-001.json",
+      "data/adversarial-questions/019-score-002.json"
+    ]
+  }
+}

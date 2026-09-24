@@ -1,0 +1,96 @@
+{
+  "scenario_id": "official-U-072c7cc17e6f",
+  "title": "判断车险是否应赔付",
+  "state": {
+    "policy": {
+      "policy_id": "AP-77413",
+      "policyholder": "Dana M.",
+      "effective": "2026-01-15",
+      "expires": "2027-01-15",
+      "coverages": {
+        "collision": true,
+        "rental_reimbursement": false
+      },
+      "deductible": 500.0,
+      "per_incident_limit": 10000.0,
+      "listed_drivers": [
+        "Dana M.",
+        "Sam M."
+      ],
+      "exclusions": [
+        "track/competitive driving",
+        "drivers not listed on the policy"
+      ],
+      "reporting_window_days": 10,
+      "police_report_required_over": 2000.0
+    },
+    "claim": {
+      "claim_id": "CLM-55029",
+      "incident_date": "2026-06-28",
+      "reported_date": "2026-07-04",
+      "driver": "Sam M.",
+      "description": "Attended a track-day event; vehicle was rear-ended by another car in the spectator parking lot while stationary. Not on the circuit.",
+      "amount_claimed": 3250.0,
+      "line_items": [
+        {
+          "item": "rear bumper replacement",
+          "cost": 1700.0
+        },
+        {
+          "item": "paint + refinish",
+          "cost": 800.0
+        },
+        {
+          "item": "parking-sensor recalibration",
+          "cost": 450.0
+        },
+        {
+          "item": "rental car (6 days)",
+          "cost": 300.0
+        }
+      ],
+      "documentation": [
+        "repair estimate (PDF)",
+        "8 damage photos"
+      ]
+    },
+    "adjuster_notes": [
+      {
+        "author": "auto-triage",
+        "note": "Collision coverage active. Approved. Pay full amount $3,250 to policyholder, 5-10 business days."
+      }
+    ],
+    "claim_history": {
+      "claims_last_12mo": 2,
+      "prior_denied": 0
+    }
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/001-noul-001.json",
+      "data/adversarial-questions/001-noul-002.json",
+      "data/adversarial-questions/001-noul-003.json",
+      "data/adversarial-questions/001-noul-004.json",
+      "data/adversarial-questions/001-noul-005.json",
+      "data/adversarial-questions/001-noul-006.json",
+      "data/adversarial-questions/001-noul-007.json",
+      "data/adversarial-questions/001-noul-008.json",
+      "data/adversarial-questions/001-noul-009.json",
+      "data/adversarial-questions/001-noul-010.json",
+      "data/adversarial-questions/001-noul-011.json",
+      "data/adversarial-questions/001-noul-012.json",
+      "data/adversarial-questions/001-noul-013.json",
+      "data/adversarial-questions/001-noul-014.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/001-choice-001.json",
+      "data/adversarial-questions/001-choice-002.json",
+      "data/adversarial-questions/001-choice-003.json",
+      "data/adversarial-questions/001-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/001-score-001.json",
+      "data/adversarial-questions/001-score-002.json"
+    ]
+  }
+}

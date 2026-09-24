@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-72362637c8ee",
+  "title": "判断运动水壶的商品类别",
+  "state": "32oz plastic bottle with a flip straw lid. Fits most bike cages.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/014-noul-001.json",
+      "data/adversarial-questions/014-noul-002.json",
+      "data/adversarial-questions/014-noul-003.json",
+      "data/adversarial-questions/014-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/014-choice-001.json",
+      "data/adversarial-questions/014-choice-002.json",
+      "data/adversarial-questions/014-choice-003.json",
+      "data/adversarial-questions/014-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/014-score-001.json",
+      "data/adversarial-questions/014-score-002.json"
+    ]
+  }
+}

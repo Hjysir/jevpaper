@@ -1,0 +1,33 @@
+{
+  "scenario_id": "official-U-e8193699d63f",
+  "title": "提取合同的生效与到期日期",
+  "state": "This agreement is effective January 1, 2025 and expires December 31, 2027.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/029-noul-001.json",
+      "data/adversarial-questions/029-noul-002.json",
+      "data/adversarial-questions/029-noul-003.json",
+      "data/adversarial-questions/029-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/029-choice-001.json",
+      "data/adversarial-questions/029-choice-002.json",
+      "data/adversarial-questions/029-choice-003.json",
+      "data/adversarial-questions/029-choice-004.json",
+      "data/adversarial-questions/029-choice-005.json",
+      "data/adversarial-questions/029-choice-006.json",
+      "data/adversarial-questions/029-choice-007.json",
+      "data/adversarial-questions/029-choice-008.json",
+      "data/adversarial-questions/029-choice-009.json",
+      "data/adversarial-questions/029-choice-010.json",
+      "data/adversarial-questions/029-choice-011.json",
+      "data/adversarial-questions/029-choice-012.json",
+      "data/adversarial-questions/029-choice-013.json",
+      "data/adversarial-questions/029-choice-014.json"
+    ],
+    "score": [
+      "data/adversarial-questions/029-score-001.json",
+      "data/adversarial-questions/029-score-002.json"
+    ]
+  }
+}

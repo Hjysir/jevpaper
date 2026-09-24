@@ -1,0 +1,26 @@
+{
+  "scenario_id": "official-U-51facaf284d3",
+  "title": "提取设计评审的预约日期",
+  "state": "Let's schedule the design review for next Thursday.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/028-noul-001.json",
+      "data/adversarial-questions/028-noul-002.json",
+      "data/adversarial-questions/028-noul-003.json",
+      "data/adversarial-questions/028-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/028-choice-001.json",
+      "data/adversarial-questions/028-choice-002.json",
+      "data/adversarial-questions/028-choice-003.json",
+      "data/adversarial-questions/028-choice-004.json",
+      "data/adversarial-questions/028-choice-005.json",
+      "data/adversarial-questions/028-choice-006.json",
+      "data/adversarial-questions/028-choice-007.json"
+    ],
+    "score": [
+      "data/adversarial-questions/028-score-001.json",
+      "data/adversarial-questions/028-score-002.json"
+    ]
+  }
+}

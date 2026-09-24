@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-3a9f3212aad2",
+  "title": "绘制苹果日线与成交量",
+  "state": "show me apple daily with volume",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/065-noul-001.json",
+      "data/adversarial-questions/065-noul-002.json",
+      "data/adversarial-questions/065-noul-003.json",
+      "data/adversarial-questions/065-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/065-choice-001.json",
+      "data/adversarial-questions/065-choice-002.json",
+      "data/adversarial-questions/065-choice-003.json",
+      "data/adversarial-questions/065-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/065-score-001.json",
+      "data/adversarial-questions/065-score-002.json"
+    ]
+  }
+}

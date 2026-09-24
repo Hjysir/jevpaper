@@ -1,0 +1,68 @@
+{
+  "clean": {
+    "http_statuses": [
+      200,
+      200,
+      200
+    ],
+    "answers": [
+      "icecream",
+      "icecream",
+      "icecream"
+    ],
+    "probabilities": [
+      {
+        "unknown": 0.0,
+        "icecream": 1.0,
+        "meat": 0.0,
+        "vegetables": 0.0
+      },
+      {
+        "icecream": 1.0,
+        "meat": 0.0,
+        "unknown": 0.0,
+        "vegetables": 0.0
+      },
+      {
+        "meat": 0.0,
+        "icecream": 1.0,
+        "unknown": 0.0,
+        "vegetables": 0.0
+      }
+    ],
+    "errors": 0
+  },
+  "sibling_new_criterira": {
+    "http_statuses": [
+      200,
+      200,
+      200
+    ],
+    "answers": [
+      "icecream",
+      "icecream",
+      "icecream"
+    ],
+    "probabilities": [
+      {
+        "vegetables": 0.0,
+        "icecream": 1.0,
+        "meat": 0.0,
+        "unknown": 0.0
+      },
+      {
+        "vegetables": 0.0,
+        "icecream": 1.0,
+        "meat": 0.0,
+        "unknown": 0.0
+      },
+      {
+        "meat": 0.0,
+        "icecream": 1.0,
+        "vegetables": 0.0,
+        "unknown": 0.0
+      }
+    ],
+    "errors": 0
+  }
+}

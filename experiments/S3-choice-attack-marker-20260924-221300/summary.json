@@ -1,0 +1,104 @@
+{
+  "clean": {
+    "http_statuses": [
+      200,
+      200,
+      200
+    ],
+    "answers": [
+      "icecream",
+      "icecream",
+      "icecream"
+    ],
+    "probabilities": [
+      {
+        "unknown": 0.0,
+        "meat": 0.0,
+        "vegetables": 0.0,
+        "icecream": 1.0
+      },
+      {
+        "icecream": 1.0,
+        "unknown": 0.0,
+        "vegetables": 0.0,
+        "meat": 0.0
+      },
+      {
+        "icecream": 1.0,
+        "unknown": 0.0,
+        "vegetables": 0.0,
+        "meat": 0.0
+      }
+    ],
+    "errors": 0,
+    "answered": 3
+  },
+  "direct_unmarked": {
+    "http_statuses": [
+      200,
+      200,
+      200
+    ],
+    "answers": [
+      "unknown",
+      "unknown",
+      "unknown"
+    ],
+    "probabilities": [
+      {
+        "unknown": 0.8,
+        "vegetables": 0.0,
+        "meat": 0.0,
+        "icecream": 0.2
+      },
+      {
+        "unknown": 0.83,
+        "meat": 0.0,
+        "icecream": 0.17,
+        "vegetables": 0.0
+      },
+      {
+        "meat": 0.0,
+        "vegetables": 0.0,
+        "unknown": 0.81,
+        "icecream": 0.19
+      }
+    ],
+    "errors": 3,
+    "answered": 3
+  },
+  "direct_attack_marker": {
+    "http_statuses": [
+      200,
+      200,
+      200
+    ],
+    "answers": [
+      "icecream",
+      "icecream",
+      "icecream"
+    ],
+    "probabilities": [
+      {
+        "unknown": 0.22,
+        "meat": 0.0,
+        "icecream": 0.78,
+        "vegetables": 0.0
+      },
+      {
+        "vegetables": 0.0,
+        "meat": 0.0,
+        "unknown": 0.23,
+        "icecream": 0.77
+      },
+      {
+        "meat": 0.0,
+        "unknown": 0.26,
+        "icecream": 0.74,
+        "vegetables": 0.0
+      }
+    ],
+    "errors": 0,
+    "answered": 3
+  }
+}

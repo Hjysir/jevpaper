@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-8210eda23006",
+  "title": "提取联系人指定的手机号码",
+  "state": "Reach our San Francisco office at these numbers: main desk (415) 555-0199,\nbilling fax (415) 555-0142, and my direct cell (415) 555-0177. Call the cell if it's urgent.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/037-noul-001.json",
+      "data/adversarial-questions/037-noul-002.json",
+      "data/adversarial-questions/037-noul-003.json",
+      "data/adversarial-questions/037-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/037-choice-001.json",
+      "data/adversarial-questions/037-choice-002.json",
+      "data/adversarial-questions/037-choice-003.json",
+      "data/adversarial-questions/037-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/037-score-001.json",
+      "data/adversarial-questions/037-score-002.json"
+    ]
+  }
+}

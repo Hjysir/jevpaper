@@ -1,0 +1,67 @@
+[
+  {
+    "category": "P1",
+    "path": "results-by-category/P1.jsonl",
+    "rows": 812
+  },
+  {
+    "category": "P2",
+    "path": "results-by-category/P2.jsonl",
+    "rows": 812
+  },
+  {
+    "category": "P3",
+    "path": "results-by-category/P3.jsonl",
+    "rows": 812
+  },
+  {
+    "category": "Q1",
+    "path": "results-by-category/Q1.jsonl",
+    "rows": 812
+  },
+  {
+    "category": "Q2",
+    "path": "results-by-category/Q2.jsonl",
+    "rows": 812
+  },
+  {
+    "category": "Q3",
+    "path": "results-by-category/Q3.jsonl",
+    "rows": 812
+  },
+  {
+    "category": "S1",
+    "path": "results-by-category/S1.jsonl",
+    "rows": 812
+  },
+  {
+    "category": "S2",
+    "path": "results-by-category/S2.jsonl",
+    "rows": 812
+  },
+  {
+    "category": "S3",
+    "path": "results-by-category/S3.jsonl",
+    "rows": 812
+  },
+  {
+    "category": "T1",
+    "path": "results-by-category/T1.jsonl",
+    "rows": 812
+  },
+  {
+    "category": "T2",
+    "path": "results-by-category/T2.jsonl",
+    "rows": 812
+  },
+  {
+    "category": "T3",
+    "path": "results-by-category/T3.jsonl",
+    "rows": 812
+  },
+  {
+    "category": "clean",
+    "path": "results-by-category/clean.jsonl",
+    "rows": 812
+  }
+]

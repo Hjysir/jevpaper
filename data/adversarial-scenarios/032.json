@@ -1,0 +1,36 @@
+{
+  "scenario_id": "official-U-884108f90d73",
+  "title": "判断两条啤酒记录是否指向同一产品",
+  "state": {
+    "entity_a": {
+      "name": "Ambleside Amber Ale",
+      "brewery": "Bridge Brewing Company",
+      "style": "American Amber / Red Ale",
+      "abv": "5.30 %"
+    },
+    "entity_b": {
+      "name": "Bridge Ambleside Amber Ale - Pomegranate & Galena Hops",
+      "brewery": "Bridge Brewing Company",
+      "style": "Amber Ale",
+      "abv": "5.30 %"
+    }
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/032-noul-001.json",
+      "data/adversarial-questions/032-noul-002.json",
+      "data/adversarial-questions/032-noul-003.json",
+      "data/adversarial-questions/032-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/032-choice-001.json",
+      "data/adversarial-questions/032-choice-002.json",
+      "data/adversarial-questions/032-choice-003.json",
+      "data/adversarial-questions/032-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/032-score-001.json",
+      "data/adversarial-questions/032-score-002.json"
+    ]
+  }
+}

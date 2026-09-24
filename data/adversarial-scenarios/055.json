@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-1de0afaa24f0",
+  "title": "查找英伟达日内活跃时段",
+  "state": "when during the day does nvda trade the most",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/055-noul-001.json",
+      "data/adversarial-questions/055-noul-002.json",
+      "data/adversarial-questions/055-noul-003.json",
+      "data/adversarial-questions/055-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/055-choice-001.json",
+      "data/adversarial-questions/055-choice-002.json",
+      "data/adversarial-questions/055-choice-003.json",
+      "data/adversarial-questions/055-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/055-score-001.json",
+      "data/adversarial-questions/055-score-002.json"
+    ]
+  }
+}

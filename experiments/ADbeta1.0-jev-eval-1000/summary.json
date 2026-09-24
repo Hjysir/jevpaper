@@ -1,0 +1,215 @@
+{
+  "dataset": "ADbeta1.0",
+  "source_sha256": "125f962d6d67322598054c736abfddf67622129847330d192b824d6c5b8efd1b",
+  "model_requested": "jev-1.13.0",
+  "models_returned": [
+    "jev-1.13.0"
+  ],
+  "expected_adversarial_answers": 9744,
+  "adversarial_answers": 9744,
+  "expected_clean_answers": 812,
+  "clean_answers": 812,
+  "complete": true,
+  "jobs": 10556,
+  "failed_or_missing_jobs": [],
+  "usage": {
+    "input_tokens": 9021499,
+    "output_tokens": 571983
+  },
+  "overall_adversarial": {
+    "answered": 9744,
+    "strict_errors": 1810,
+    "strict_error_rate": 0.1857553366174056
+  },
+  "clean": {
+    "answered": 812,
+    "strict_errors": 79,
+    "strict_error_rate": 0.09729064039408868
+  },
+  "by_category": {
+    "clean": {
+      "answered": 812,
+      "strict_errors": 79,
+      "strict_error_rate": 0.09729064039408868
+    },
+    "Q1": {
+      "answered": 812,
+      "strict_errors": 85,
+      "strict_error_rate": 0.10467980295566502
+    },
+    "Q2": {
+      "answered": 812,
+      "strict_errors": 82,
+      "strict_error_rate": 0.10098522167487685
+    },
+    "Q3": {
+      "answered": 812,
+      "strict_errors": 140,
+      "strict_error_rate": 0.1724137931034483
+    },
+    "S1": {
+      "answered": 812,
+      "strict_errors": 83,
+      "strict_error_rate": 0.1022167487684729
+    },
+    "S2": {
+      "answered": 812,
+      "strict_errors": 81,
+      "strict_error_rate": 0.09975369458128079
+    },
+    "S3": {
+      "answered": 812,
+      "strict_errors": 211,
+      "strict_error_rate": 0.25985221674876846
+    },
+    "T1": {
+      "answered": 812,
+      "strict_errors": 96,
+      "strict_error_rate": 0.11822660098522167
+    },
+    "T2": {
+      "answered": 812,
+      "strict_errors": 250,
+      "strict_error_rate": 0.3078817733990148
+    },
+    "T3": {
+      "answered": 812,
+      "strict_errors": 186,
+      "strict_error_rate": 0.229064039408867
+    },
+    "P1": {
+      "answered": 812,
+      "strict_errors": 197,
+      "strict_error_rate": 0.24261083743842365
+    },
+    "P2": {
+      "answered": 812,
+      "strict_errors": 210,
+      "strict_error_rate": 0.25862068965517243
+    },
+    "P3": {
+      "answered": 812,
+      "strict_errors": 189,
+      "strict_error_rate": 0.23275862068965517
+    }
+  },
+  "by_type": {
+    "noul": {
+      "answered": 3768,
+      "strict_errors": 195,
+      "strict_error_rate": 0.0517515923566879
+    },
+    "choice": {
+      "answered": 4044,
+      "strict_errors": 353,
+      "strict_error_rate": 0.08728981206726014
+    },
+    "score": {
+      "answered": 1932,
+      "strict_errors": 1262,
+      "strict_error_rate": 0.6532091097308489
+    }
+  },
+  "score_exact_only": {
+    "answered": 1644,
+    "strict_errors": 1166,
+    "strict_error_rate": 0.7092457420924574
+  },
+  "by_label_source": {
+    "human_review": {
+      "answered": 1716,
+      "strict_errors": 499,
+      "strict_error_rate": 0.2907925407925408
+    },
+    "jev_default": {
+      "answered": 8028,
+      "strict_errors": 1311,
+      "strict_error_rate": 0.1633034379671151
+    }
+  },
+  "new_errors_given_correct_clean": {
+    "Q1": {
+      "baseline_correct_count": 733,
+      "new_errors": 10,
+      "new_error_rate": 0.013642564802182811
+    },
+    "Q2": {
+      "baseline_correct_count": 733,
+      "new_errors": 7,
+      "new_error_rate": 0.009549795361527967
+    },
+    "Q3": {
+      "baseline_correct_count": 733,
+      "new_errors": 66,
+      "new_error_rate": 0.09004092769440655
+    },
+    "S1": {
+      "baseline_correct_count": 733,
+      "new_errors": 6,
+      "new_error_rate": 0.008185538881309686
+    },
+    "S2": {
+      "baseline_correct_count": 733,
+      "new_errors": 3,
+      "new_error_rate": 0.004092769440654843
+    },
+    "S3": {
+      "baseline_correct_count": 733,
+      "new_errors": 139,
+      "new_error_rate": 0.18963165075034105
+    },
+    "T1": {
+      "baseline_correct_count": 733,
+      "new_errors": 23,
+      "new_error_rate": 0.03137789904502047
+    },
+    "T2": {
+      "baseline_correct_count": 733,
+      "new_errors": 173,
+      "new_error_rate": 0.23601637107776263
+    },
+    "T3": {
+      "baseline_correct_count": 733,
+      "new_errors": 113,
+      "new_error_rate": 0.15416098226466576
+    },
+    "P1": {
+      "baseline_correct_count": 733,
+      "new_errors": 123,
+      "new_error_rate": 0.16780354706684858
+    },
+    "P2": {
+      "baseline_correct_count": 733,
+      "new_errors": 134,
+      "new_error_rate": 0.18281036834924966
+    },
+    "P3": {
+      "baseline_correct_count": 733,
+      "new_errors": 113,
+      "new_error_rate": 0.15416098226466576
+    }
+  },
+  "scoring": {
+    "noul_exact": "noul >= 0.5 means true; value 0.5 is true",
+    "noul_interval": "inclusive on raw noul probability",
+    "choice_exact": "choice option key equality",
+    "score_exact": "continuous score equality, absolute tolerance 1e-9 for floating-point representation only",
+    "score_interval": "inclusive on raw continuous score"
+  },
+  "execution": {
+    "started_at": "2026-09-24T12:20:50.011039+00:00",
+    "concurrency": 1000,
+    "wave_size": 1000,
+    "questions_per_request": 1,
+    "planned_requests": 10556,
+    "dataset_sha256": "125f962d6d67322598054c736abfddf67622129847330d192b824d6c5b8efd1b",
+    "model": "jev-1.13.0",
+    "finished_at": "2026-09-24T12:21:57.222338+00:00",
+    "peak_concurrent_requests": 1000,
+    "stats": {
+      "http_calls": 10556,
+      "http_200": 10556,
+      "ok": 10556
+    }
+  }
+}

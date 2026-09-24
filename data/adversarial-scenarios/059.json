@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-5f71ff874d43",
+  "title": "绘制特斯拉蜡烛图与均线",
+  "state": "candles for tesla with a 20 period moving average",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/059-noul-001.json",
+      "data/adversarial-questions/059-noul-002.json",
+      "data/adversarial-questions/059-noul-003.json",
+      "data/adversarial-questions/059-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/059-choice-001.json",
+      "data/adversarial-questions/059-choice-002.json",
+      "data/adversarial-questions/059-choice-003.json",
+      "data/adversarial-questions/059-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/059-score-001.json",
+      "data/adversarial-questions/059-score-002.json"
+    ]
+  }
+}

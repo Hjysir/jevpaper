@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-3399a3470de6",
+  "title": "能力局限 · 退款问题与否定问题",
+  "state": "I was charged twice for the same order. Can someone look into this?",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/053-noul-001.json",
+      "data/adversarial-questions/053-noul-002.json",
+      "data/adversarial-questions/053-noul-003.json",
+      "data/adversarial-questions/053-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/053-choice-001.json",
+      "data/adversarial-questions/053-choice-002.json",
+      "data/adversarial-questions/053-choice-003.json",
+      "data/adversarial-questions/053-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/053-score-001.json",
+      "data/adversarial-questions/053-score-002.json"
+    ]
+  }
+}

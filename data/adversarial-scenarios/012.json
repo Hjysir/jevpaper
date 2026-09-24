@@ -1,0 +1,25 @@
+{
+  "scenario_id": "official-U-41fbc1074143",
+  "title": "核查发票信息提取结果",
+  "state": {
+    "source_text": "Invoice #4471 issued March 3, 2026 to Beaver Dam Logistics for $12,840.00, net 30."
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/012-noul-001.json",
+      "data/adversarial-questions/012-noul-002.json",
+      "data/adversarial-questions/012-noul-003.json",
+      "data/adversarial-questions/012-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/012-choice-001.json",
+      "data/adversarial-questions/012-choice-002.json",
+      "data/adversarial-questions/012-choice-003.json",
+      "data/adversarial-questions/012-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/012-score-001.json",
+      "data/adversarial-questions/012-score-002.json"
+    ]
+  }
+}

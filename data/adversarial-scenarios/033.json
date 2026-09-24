@@ -1,0 +1,24 @@
+{
+  "scenario_id": "official-U-39efc61ac003",
+  "title": "把股票分析请求转换为工具参数",
+  "state": "plot rolling correlation between nvda and spy for the past month",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/033-noul-001.json",
+      "data/adversarial-questions/033-noul-002.json",
+      "data/adversarial-questions/033-noul-003.json",
+      "data/adversarial-questions/033-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/033-choice-001.json",
+      "data/adversarial-questions/033-choice-002.json",
+      "data/adversarial-questions/033-choice-003.json",
+      "data/adversarial-questions/033-choice-004.json",
+      "data/adversarial-questions/033-choice-005.json"
+    ],
+    "score": [
+      "data/adversarial-questions/033-score-001.json",
+      "data/adversarial-questions/033-score-002.json"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "scenario_id": "official-U-1bd46ecb5859",
+  "title": "分类重复扣款咨询并判断紧急程度",
+  "state": {
+    "document": "I was charged twice. Please fix this ASAP."
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/022-noul-001.json",
+      "data/adversarial-questions/022-noul-002.json",
+      "data/adversarial-questions/022-noul-003.json",
+      "data/adversarial-questions/022-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/022-choice-001.json",
+      "data/adversarial-questions/022-choice-002.json",
+      "data/adversarial-questions/022-choice-003.json",
+      "data/adversarial-questions/022-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/022-score-001.json",
+      "data/adversarial-questions/022-score-002.json"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-ac1d6a1fa3f4",
+  "title": "比较三只股票近三个月表现",
+  "state": "compare nvda amd and msft over the past three months",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/060-noul-001.json",
+      "data/adversarial-questions/060-noul-002.json",
+      "data/adversarial-questions/060-noul-003.json",
+      "data/adversarial-questions/060-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/060-choice-001.json",
+      "data/adversarial-questions/060-choice-002.json",
+      "data/adversarial-questions/060-choice-003.json",
+      "data/adversarial-questions/060-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/060-score-001.json",
+      "data/adversarial-questions/060-score-002.json"
+    ]
+  }
+}

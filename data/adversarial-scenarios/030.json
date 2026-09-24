@@ -1,0 +1,33 @@
+{
+  "scenario_id": "official-U-5b3a47c56ecc",
+  "title": "提取表单提交截止日期",
+  "state": "Please return the signed form by August 14.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/030-noul-001.json",
+      "data/adversarial-questions/030-noul-002.json",
+      "data/adversarial-questions/030-noul-003.json",
+      "data/adversarial-questions/030-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/030-choice-001.json",
+      "data/adversarial-questions/030-choice-002.json",
+      "data/adversarial-questions/030-choice-003.json",
+      "data/adversarial-questions/030-choice-004.json",
+      "data/adversarial-questions/030-choice-005.json",
+      "data/adversarial-questions/030-choice-006.json",
+      "data/adversarial-questions/030-choice-007.json",
+      "data/adversarial-questions/030-choice-008.json",
+      "data/adversarial-questions/030-choice-009.json",
+      "data/adversarial-questions/030-choice-010.json",
+      "data/adversarial-questions/030-choice-011.json",
+      "data/adversarial-questions/030-choice-012.json",
+      "data/adversarial-questions/030-choice-013.json",
+      "data/adversarial-questions/030-choice-014.json"
+    ],
+    "score": [
+      "data/adversarial-questions/030-score-001.json",
+      "data/adversarial-questions/030-score-002.json"
+    ]
+  }
+}

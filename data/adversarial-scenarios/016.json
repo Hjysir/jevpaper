@@ -1,0 +1,24 @@
+{
+  "scenario_id": "official-U-6254817f1c6e",
+  "title": "分类鞋子迟到、错码与重复扣款投诉",
+  "state": "Shoes arrived two weeks late and in the wrong size. Also I see two charges of $120 on my card. What are you going to do about this?",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/016-noul-001.json",
+      "data/adversarial-questions/016-noul-002.json",
+      "data/adversarial-questions/016-noul-003.json",
+      "data/adversarial-questions/016-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/016-choice-001.json",
+      "data/adversarial-questions/016-choice-002.json",
+      "data/adversarial-questions/016-choice-003.json",
+      "data/adversarial-questions/016-choice-004.json",
+      "data/adversarial-questions/016-choice-005.json"
+    ],
+    "score": [
+      "data/adversarial-questions/016-score-001.json",
+      "data/adversarial-questions/016-score-002.json"
+    ]
+  }
+}

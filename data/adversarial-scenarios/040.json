@@ -1,0 +1,56 @@
+{
+  "scenario_id": "official-U-c0592b84574d",
+  "title": "核查注册日期与描述的提取结果",
+  "state": {
+    "system_message": "You extract structured data from documents. Return only values supported by the text. Follow any value format specified by the schema or its field descriptions.",
+    "instruction": "Extract the structured record from this document",
+    "source_text": "Skip to content Skip to current page navigation\n\n[ ](https://www.nyu.edu/)\n\nSearch Site\n\n[ ](https://www.nyu.edu/)\n\n  * [ Academics](https://www.nyu.edu/academics.html)\n  * [ Admissions](https://www.nyu.edu/admissions.html)\n  * [ Research](https://www.nyu.edu/research.html)\n  * [ University Life](https://www.nyu.edu/life.html)\n  * [ About](https://www.nyu.edu/about.html)\n\n\n\nAll NYU\n\n#  Mobile Navigation \n\n[ ](https://www.nyu.edu/)\n\nSearch Site\n\n  * [Academics](https://www.nyu.edu/academics.html)\n  * [Admissions](https://www.nyu.edu/admissions.html)\n  * [Research](https://www.nyu.edu/research.html)\n  * [University Life](https://www.nyu.edu/life.html)\n  * [About](https://www.nyu.edu/about.html)\n\n\n\nAll NYU\n\nInfo for\n\n  * Back to main menu\n  * Info for \n\n    * [Students](https://www.nyu.edu/students.html)\n    * [Faculty](https://www.nyu.edu/faculty.html)\n    * [Alumni](https://www.nyu.edu/alumni.html)\n    * [Employees](https://www.nyu.edu/employees.html)\n    * [Community](https://www.nyu.edu/community.html)\n\n\n\n[Log In](http://home.nyu.edu/)\n\nInfo for\n\n  * [Students](https://www.nyu.edu/students.html)\n  * [Faculty](https://www.nyu.edu/faculty.html)\n  * [Alumni](https://www.nyu.edu/alumni.html)\n  * [Employees](https://www.nyu.edu/employees.html)\n  * [Community](https://www.nyu.edu/community.html)\n\n\n\n[Log In](https://home.nyu.edu/)\n\nSearch Site Search\n\n#  Events Calendar \n\nSearch Events \n\nApply Reset\n\n  * [About the Events Calendar ](https://www.nyu.edu/employees/resources-and-services/media-and-communications/digital-communications/university-events-calendar.html)\n  * [Events Calendar Tutorial ](https://www.nyu.edu/employees/resources-and-services/media-and-communications/digital-communications/university-events-calendar/tutorials.html)\n  * [Report issue or provide feedback ](https://nyu.service-now.com/sp?id=sc_cat_item&sys_id=7698dd2a98bcf4004c8c03063d84e274)\n\n\n\nSearch Filters Calendar\n\nNew York University \n\nEqual Opportunity and Non-Discrimination at NYU - New York University is committed to maintaining an environment that encourages and fosters respect for individual values and appropriate conduct among all persons. In all University spaces--physical and digital--programming, activities, and events are carried out in accordance with applicable law as well as University policy, which includes but is not limited to its Non-Discrimination and Anti-Harassment Policy. \n\nUnless otherwise noted, all content copyright New York University. All rights reserved. \n\n  * [Search](https://search.nyu.edu/)\n  * [Campus Map](https://www.nyu.edu/map.html)\n  * [Events](https://events.nyu.edu/)\n  * [Contact Us](https://www.nyu.edu/contact-us.html)\n  * [Give](https://www.nyu.edu/about/giving.html)\n  * [Copyright & Fair Use](https://www.nyu.edu/copyright-and-fair-use.html)\n  * [Privacy](https://www.nyu.edu/privacy.html)\n  * [Accessibility](https://www.nyu.edu/accessibility.html)\n  * [Feedback](https://www.nyu.edu/#feedback.html)\n\n\n\n  * [New York Campus](https://www.nyu.edu/)\n  * [Abu Dhabi Campus](https://nyuad.nyu.edu/)\n  * [Shanghai Campus](https://shanghai.nyu.edu/)\n\n\n\n  * [![](https://events.nyu.edu/live/resource/image/_i/themes/global/images/icons/facebook.rev.1773448757.svg)](https://facebook.com/)\n  * [![](https://events.nyu.edu/live/resource/image/_i/themes/global/images/icons/linkedin.rev.1773448758.svg)](https://linkedin.com/)\n  * [![](https://events.nyu.edu/live/resource/image/_i/themes/global/images/icons/x.rev.1773448757.svg)](https://x.com/)\n  * [![](https://events.nyu.edu/live/resource/image/_i/themes/global/images/icons/instagram.rev.1773448757.svg)](https://instagram.com/)\n  * [![](https://events.nyu.edu/live/resource/image/_i/themes/global/images/icons/youtube.rev.1773448758.svg)](https://youtube.com/)\n\n\n",
+    "schema": {
+      "properties": {
+        "registration_open_date": {
+          "description": "The date that registration opens for the fall semester. MUST be in the format mm/dd/yyyy. For example, for a college in the 2024-2025 school year, it might be something like 09/05/2024. Return a blank string if you are unsure.",
+          "title": "Registration Open Date",
+          "type": "string"
+        },
+        "description": {
+          "description": "A brief description of the registration open date. For example, 'Registration opens for the fall semester'.",
+          "title": "Description",
+          "type": "string"
+        }
+      },
+      "required": [
+        "registration_open_date",
+        "description"
+      ],
+      "title": "RegistrationOpen",
+      "type": "object"
+    },
+    "extraction": {
+      "registration_open_date": "",
+      "description": "Registration opens for the fall semester"
+    }
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/040-noul-001.json",
+      "data/adversarial-questions/040-noul-002.json",
+      "data/adversarial-questions/040-noul-003.json",
+      "data/adversarial-questions/040-noul-004.json",
+      "data/adversarial-questions/040-noul-005.json",
+      "data/adversarial-questions/040-noul-006.json",
+      "data/adversarial-questions/040-noul-007.json",
+      "data/adversarial-questions/040-noul-008.json",
+      "data/adversarial-questions/040-noul-009.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/040-choice-001.json",
+      "data/adversarial-questions/040-choice-002.json",
+      "data/adversarial-questions/040-choice-003.json",
+      "data/adversarial-questions/040-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/040-score-001.json",
+      "data/adversarial-questions/040-score-002.json"
+    ]
+  }
+}

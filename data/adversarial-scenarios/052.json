@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-8b03d9a4c567",
+  "title": "重复扣款咨询 · 文本输入",
+  "state": "I was charged twice.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/052-noul-001.json",
+      "data/adversarial-questions/052-noul-002.json",
+      "data/adversarial-questions/052-noul-003.json",
+      "data/adversarial-questions/052-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/052-choice-001.json",
+      "data/adversarial-questions/052-choice-002.json",
+      "data/adversarial-questions/052-choice-003.json",
+      "data/adversarial-questions/052-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/052-score-001.json",
+      "data/adversarial-questions/052-score-002.json"
+    ]
+  }
+}

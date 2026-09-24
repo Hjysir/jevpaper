@@ -1,0 +1,26 @@
+{
+  "scenario_id": "official-U-be42abc8ffee",
+  "title": "提取问卷关闭日期",
+  "state": "Heads up - the customer survey closes today at 5pm.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/031-noul-001.json",
+      "data/adversarial-questions/031-noul-002.json",
+      "data/adversarial-questions/031-noul-003.json",
+      "data/adversarial-questions/031-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/031-choice-001.json",
+      "data/adversarial-questions/031-choice-002.json",
+      "data/adversarial-questions/031-choice-003.json",
+      "data/adversarial-questions/031-choice-004.json",
+      "data/adversarial-questions/031-choice-005.json",
+      "data/adversarial-questions/031-choice-006.json",
+      "data/adversarial-questions/031-choice-007.json"
+    ],
+    "score": [
+      "data/adversarial-questions/031-score-001.json",
+      "data/adversarial-questions/031-score-002.json"
+    ]
+  }
+}

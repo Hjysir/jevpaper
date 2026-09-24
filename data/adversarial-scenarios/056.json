@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-8489f0eecd85",
+  "title": "查询今日市场变动",
+  "state": "what moved today",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/056-noul-001.json",
+      "data/adversarial-questions/056-noul-002.json",
+      "data/adversarial-questions/056-noul-003.json",
+      "data/adversarial-questions/056-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/056-choice-001.json",
+      "data/adversarial-questions/056-choice-002.json",
+      "data/adversarial-questions/056-choice-003.json",
+      "data/adversarial-questions/056-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/056-score-001.json",
+      "data/adversarial-questions/056-score-002.json"
+    ]
+  }
+}

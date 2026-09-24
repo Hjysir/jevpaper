@@ -1,0 +1,26 @@
+{
+  "scenario_id": "official-U-1d1ec2a5a35b",
+  "title": "为制作演示文稿选择合适的技能",
+  "state": {
+    "request": "Can you put together a pitch deck skeleton (cover, situation overview, comps, precedent transactions, DCF, LBO) as a .pptx, using our firm-template.pptx for branding and footnoting each valuation number back to the cell it came from in the model?",
+    "recent_context": ""
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/042-noul-001.json",
+      "data/adversarial-questions/042-noul-002.json",
+      "data/adversarial-questions/042-noul-003.json",
+      "data/adversarial-questions/042-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/042-choice-001.json",
+      "data/adversarial-questions/042-choice-002.json",
+      "data/adversarial-questions/042-choice-003.json",
+      "data/adversarial-questions/042-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/042-score-001.json",
+      "data/adversarial-questions/042-score-002.json"
+    ]
+  }
+}

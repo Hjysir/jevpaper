@@ -1,0 +1,24 @@
+{
+  "scenario_id": "official-U-aeff43a1b69c",
+  "title": "评估 PDF 导出故障与客户反馈",
+  "state": "Export to PDF fails with a spinner that never finishes. Some of our team say CSV export still works for them, others say it fails too. This is the third time I'm writing in and honestly I'm done. Steps: open any report, click Export, choose PDF. Chrome 128 on macOS.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/020-noul-001.json",
+      "data/adversarial-questions/020-noul-002.json",
+      "data/adversarial-questions/020-noul-003.json",
+      "data/adversarial-questions/020-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/020-choice-001.json",
+      "data/adversarial-questions/020-choice-002.json",
+      "data/adversarial-questions/020-choice-003.json",
+      "data/adversarial-questions/020-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/020-score-001.json",
+      "data/adversarial-questions/020-score-002.json",
+      "data/adversarial-questions/020-score-003.json"
+    ]
+  }
+}

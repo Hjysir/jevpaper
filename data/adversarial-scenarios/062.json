@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-46c210585dc1",
+  "title": "查询今日跌幅最大的股票",
+  "state": "biggest losers today",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/062-noul-001.json",
+      "data/adversarial-questions/062-noul-002.json",
+      "data/adversarial-questions/062-noul-003.json",
+      "data/adversarial-questions/062-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/062-choice-001.json",
+      "data/adversarial-questions/062-choice-002.json",
+      "data/adversarial-questions/062-choice-003.json",
+      "data/adversarial-questions/062-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/062-score-001.json",
+      "data/adversarial-questions/062-score-002.json"
+    ]
+  }
+}

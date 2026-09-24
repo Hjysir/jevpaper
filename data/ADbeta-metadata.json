@@ -1,0 +1,192 @@
+{
+  "dataset": "ADbeta1.0",
+  "source_dataset": "beta1.0",
+  "generated_at": "2026-09-24T20:20:33.158667+08:00",
+  "generation_spec": {
+    "prompt_file": "扰动生成prompt-en.md",
+    "prompt_sha256": "c79a388cdc0b76bac15fe636fbb400050524778e9d0ea47ba65356acdda05b2b",
+    "source_file": "beta1.0-20260923.json",
+    "source_sha256": "62d9e567f3f167809050f287b283a02c1e43f86267342a49a5c5a6e915c97c12",
+    "random_seed": 1306248811257843235,
+    "generation_method": "Fresh baseline-only programmatic generation with new random seed; Q1 spacing only; Q2 sentence recast; isolated structural, state and prompt perturbations.",
+    "text_baseline": "Each question object serialized once with ensure_ascii=False and indent=2.",
+    "review_status": "pending",
+    "method_overrides": {
+      "Q1": "spacing_noise",
+      "Q2": "question_to_instruction_recast"
+    },
+    "generator_file": "regenerate_adbeta.py",
+    "generator_sha256": "c1e0d8f4ea02463014393bef1810fb4079c75cb1e1192f61d23102a2979a5f12",
+    "category_revisions": [
+      {
+        "version": "S3-v2",
+        "generated_at": "2026-09-24T12:44:46.010315+00:00",
+        "random_seed": 12109500533680772803,
+        "prompt_sha256": "eb7634ee3da64de63160ef75fb11ef31bf26552f33079532e9ea5d0e657fcbfd",
+        "previous_dataset_sha256": "125f962d6d67322598054c736abfddf67622129847330d192b824d6c5b8efd1b",
+        "source_sha256": "62d9e567f3f167809050f287b283a02c1e43f86267342a49a5c5a6e915c97c12",
+        "regenerated_categories": [
+          "S3"
+        ],
+        "unchanged_other_samples": 8932,
+        "generator_sha256": "56d0d9d1ebd23947c3f6b6a2b3f0a283ced4613080a9b061b99e679f8255e582"
+      },
+      {
+        "version": "S3-v3",
+        "generated_at": "2026-09-24T13:05:12.409704+00:00",
+        "random_seed": 12592385805923842370,
+        "prompt_sha256": "892a766aa123c67f3bb20c262cce3a0389377ead604c1a16d7c550816e10c9f0",
+        "previous_dataset_sha256": "fb3f92b26e0813eda422c686492f360dd097c33a1fe728fc6e1a59a0e4a18094",
+        "source_sha256": "62d9e567f3f167809050f287b283a02c1e43f86267342a49a5c5a6e915c97c12",
+        "regenerated_categories": [
+          "S3"
+        ],
+        "unchanged_other_samples": 8932
+      },
+      {
+        "version": "S3-v4",
+        "generated_at": "2026-09-24T13:32:26.503856+00:00",
+        "random_seed": 12592385805923842370,
+        "prompt_sha256": "02b9c63022ab3a3cd3c4308d33aec329665bd97b912b9cb42182d757108eba7d",
+        "previous_dataset_sha256": "04f440a725dbad51c8807dfebe33c048367c3475c729c03fd2719874253c25a8",
+        "source_sha256": "62d9e567f3f167809050f287b283a02c1e43f86267342a49a5c5a6e915c97c12",
+        "regenerated_categories": [
+          "S3"
+        ],
+        "unchanged_other_samples": 8932,
+        "choice_score_inputs_identical_to_v3": 498
+      },
+      {
+        "version": "S3-v5",
+        "generated_at": "2026-09-24T13:35:14.572804+00:00",
+        "random_seed": 12592385805923842370,
+        "prompt_sha256": "ec7f8f7ab5e0174bdbf7332d15cba3ff3ee18d9b475020d00a67e017f2788124",
+        "previous_dataset_sha256": "26f475d803df55022211c0eb10bf791d823154da615495dad8645cea16611f5b",
+        "source_sha256": "62d9e567f3f167809050f287b283a02c1e43f86267342a49a5c5a6e915c97c12",
+        "regenerated_categories": [
+          "S3"
+        ],
+        "unchanged_other_samples": 8932,
+        "choice_score_inputs_identical_to_v4": 498
+      }
+    ]
+  },
+  "summary": {
+    "scenarios": 66,
+    "questions": 812,
+    "human_reviewed": 143,
+    "jev_default": 669,
+    "interval_answers": 27,
+    "special_pending": 0,
+    "question_types": {
+      "noul": 314,
+      "choice": 337,
+      "score": 161
+    },
+    "subcategory_records": 9744,
+    "candidate_count": 9744,
+    "not_applicable_count": 0,
+    "not_applicable_by_reason": {},
+    "by_subcategory": {
+      "Q1": {
+        "candidate": 812,
+        "not_applicable": 0
+      },
+      "Q2": {
+        "candidate": 812,
+        "not_applicable": 0
+      },
+      "Q3": {
+        "candidate": 812,
+        "not_applicable": 0
+      },
+      "S1": {
+        "candidate": 812,
+        "not_applicable": 0
+      },
+      "S2": {
+        "candidate": 812,
+        "not_applicable": 0
+      },
+      "S3": {
+        "candidate": 812,
+        "not_applicable": 0
+      },
+      "T1": {
+        "candidate": 812,
+        "not_applicable": 0
+      },
+      "T2": {
+        "candidate": 812,
+        "not_applicable": 0
+      },
+      "T3": {
+        "candidate": 812,
+        "not_applicable": 0
+      },
+      "P1": {
+        "candidate": 812,
+        "not_applicable": 0
+      },
+      "P2": {
+        "candidate": 812,
+        "not_applicable": 0
+      },
+      "P3": {
+        "candidate": 812,
+        "not_applicable": 0
+      }
+    },
+    "methods": {
+      "Q1": {
+        "spacing_noise": 812
+      },
+      "Q2": {
+        "question_to_instruction_recast": 812
+      },
+      "Q3": {
+        "irrelevant_sentence_interleaving": 812
+      },
+      "S1": {
+        "add_field": 812
+      },
+      "S2": {
+        "unicode_escape": 812
+      },
+      "S3": {
+        "noul_boundary_narrow": 314,
+        "append_duplicate_choice_permutation": 337,
+        "append_duplicate_score_criteria": 161
+      },
+      "T1": {
+        "irrelevant_background": 812
+      },
+      "T2": {
+        "fabricated_policy_excerpt": 812
+      },
+      "T3": {
+        "fabricated_history": 812
+      },
+      "P1": {
+        "direct_override": 812
+      },
+      "P2": {
+        "authority_impersonation": 812
+      },
+      "P3": {
+        "task_related_manipulation": 812
+      }
+    },
+    "review_status": "pending"
+  },
+  "说明": {
+    "结构": "每个场景保留完整 state，其下按 noul、choice、score 分类；question 保留原始指令及选项或等级。",
+    "标准答案": "standard_answer 是当前采用的评测标签。human_review 表示人工审核，jev_default 表示默认采用稳定 Jev 答案，未经独立人工验证。（均为多重执行后置信度非常高的工作）",
+    "区间": "kind=interval 时上下限均包含在内。noul 使用 0–1 的 P(true)，score 使用原始评分单位。",
+    "固定标签": "kind=exact：noul 为布尔值，choice 为原选项键，score 为连续评分。未在本文件中新增固定标签的评分阈值。",
+    "对抗结构": "沿用 beta1.0 的 scenarios/questions 分组；每题新增 adversarial 包含固定顺序的 12 类记录。",
+    "不适用含义": "not_applicable 只用于放宽规则后仍无法构造候选的情况；不等于已通过攻击效果验证。",
+    "原文传输": "S2 的 perturbed_question_text 必须按原始文本送入评测接口；先解析成对象会消除 Unicode 转义。",
+    "审核": "candidate 仅表示成功构造，所有语义与攻击效果仍待人工审核。"
+  }
+}

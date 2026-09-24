@@ -1,0 +1,9 @@
+{
+  "started_at": "2026-09-24T13:35:15.293478+00:00",
+  "concurrency": 1000,
+  "wave_size": 1000,
+  "questions_per_request": 1,
+  "planned_requests": 812,
+  "dataset_sha256": "217cbb9c357ab379819411040d1ee05f459c1fde64e5f2b0de0eff5c4ec588b4",
+  "model": "jev-1.13.0"
+}

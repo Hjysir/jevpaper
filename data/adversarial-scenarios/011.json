@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-e5074072b79f",
+  "title": "分类订单、登录与功能建议工单",
+  "state": "Hi, I placed an order (#98423) last Thursday and was charged twice. I also can't log in after the site update, and adding Apple Pay would be really helpful. This is getting frustrating.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/011-noul-001.json",
+      "data/adversarial-questions/011-noul-002.json",
+      "data/adversarial-questions/011-noul-003.json",
+      "data/adversarial-questions/011-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/011-choice-001.json",
+      "data/adversarial-questions/011-choice-002.json",
+      "data/adversarial-questions/011-choice-003.json",
+      "data/adversarial-questions/011-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/011-score-001.json",
+      "data/adversarial-questions/011-score-002.json"
+    ]
+  }
+}

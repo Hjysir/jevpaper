@@ -1,0 +1,98 @@
+{
+  "dataset_sha256": "217cbb9c357ab379819411040d1ee05f459c1fde64e5f2b0de0eff5c4ec588b4",
+  "category": "S3",
+  "revision": "S3-v5",
+  "model": "jev-1.13.0",
+  "complete": true,
+  "failures": [],
+  "overall": {
+    "answered": 812,
+    "strict_errors": 548,
+    "strict_error_rate": 0.6748768472906403
+  },
+  "by_type": {
+    "noul": {
+      "answered": 314,
+      "strict_errors": 149,
+      "strict_error_rate": 0.4745222929936306
+    },
+    "choice": {
+      "answered": 337,
+      "strict_errors": 259,
+      "strict_error_rate": 0.7685459940652819
+    },
+    "score": {
+      "answered": 161,
+      "strict_errors": 140,
+      "strict_error_rate": 0.8695652173913043
+    }
+  },
+  "previous_overall": {
+    "answered": 812,
+    "strict_errors": 562,
+    "strict_error_rate": 0.6921182266009852
+  },
+  "previous_by_type": {
+    "noul": {
+      "answered": 314,
+      "strict_errors": 159,
+      "strict_error_rate": 0.5063694267515924
+    },
+    "choice": {
+      "answered": 337,
+      "strict_errors": 263,
+      "strict_error_rate": 0.7804154302670623
+    },
+    "score": {
+      "answered": 161,
+      "strict_errors": 140,
+      "strict_error_rate": 0.8695652173913043
+    }
+  },
+  "execution": {
+    "started_at": "2026-09-24T13:35:15.293478+00:00",
+    "concurrency": 1000,
+    "wave_size": 1000,
+    "questions_per_request": 1,
+    "planned_requests": 812,
+    "dataset_sha256": "217cbb9c357ab379819411040d1ee05f459c1fde64e5f2b0de0eff5c4ec588b4",
+    "model": "jev-1.13.0",
+    "finished_at": "2026-09-24T13:35:21.504442+00:00",
+    "peak_concurrent_requests": 812,
+    "stats": {
+      "http_calls": 812,
+      "http_200": 812,
+      "ok": 812
+    }
+  },
+  "scoring": "Strict exact labels; inclusive original intervals; no Score tolerance widening.",
+  "previous_results": "ADbeta1.0-S3-v4-eval/results.jsonl",
+  "transition": {
+    "old_True_new_True": 246,
+    "old_True_new_False": 4,
+    "old_False_new_True": 18,
+    "old_False_new_False": 544
+  },
+  "new_errors_given_old_clean_correct": {
+    "answered": 733,
+    "strict_errors": 474,
+    "strict_error_rate": 0.6466575716234653
+  },
+  "noul_by_original_label": {
+    "true": {
+      "n": 159,
+      "errors": 146,
+      "error_rate": 0.9182389937106918
+    },
+    "false": {
+      "n": 152,
+      "errors": 0,
+      "error_rate": 0.0
+    },
+    "interval": {
+      "n": 3,
+      "errors": 3,
+      "error_rate": 1.0
+    }
+  }
+}

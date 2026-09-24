@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-f9c5ad92fb30",
+  "title": "比较AMD与英伟达近期走势",
+  "state": "is amd tracking nvidia lately",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/066-noul-001.json",
+      "data/adversarial-questions/066-noul-002.json",
+      "data/adversarial-questions/066-noul-003.json",
+      "data/adversarial-questions/066-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/066-choice-001.json",
+      "data/adversarial-questions/066-choice-002.json",
+      "data/adversarial-questions/066-choice-003.json",
+      "data/adversarial-questions/066-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/066-score-001.json",
+      "data/adversarial-questions/066-score-002.json"
+    ]
+  }
+}

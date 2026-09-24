@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-796d77c9edbb",
+  "title": "分类并评估 Stripe 接入故障",
+  "state": "Hi, I've been trying to connect my Stripe account for 3 days and the integration keeps failing. I'm losing sales. Please help ASAP.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/010-noul-001.json",
+      "data/adversarial-questions/010-noul-002.json",
+      "data/adversarial-questions/010-noul-003.json",
+      "data/adversarial-questions/010-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/010-choice-001.json",
+      "data/adversarial-questions/010-choice-002.json",
+      "data/adversarial-questions/010-choice-003.json",
+      "data/adversarial-questions/010-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/010-score-001.json",
+      "data/adversarial-questions/010-score-002.json"
+    ]
+  }
+}

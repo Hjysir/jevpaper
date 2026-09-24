@@ -1,0 +1,43 @@
+{
+  "states": 66,
+  "questions": 812,
+  "by_type": {
+    "noul": 314,
+    "choice": 337,
+    "score": 161
+  },
+  "statuses": {
+    "review": 82,
+    "stable": 730
+  },
+  "review_reasons": {
+    "接近判断边界：至少一轮在(0.4,0.6)": 10,
+    "至少一轮最高选项概率低于0.70": 50,
+    "5次选择/最高概率等级不一致": 12,
+    "轮次判断区间不一致": 5,
+    "是概率波动超过0.10": 1,
+    "获选选项概率波动超过0.10": 5,
+    "原题前提不适用：日期采用相对表达": 6,
+    "原题前提不适用：已给出绝对日期，未命名星期": 12,
+    "原题前提不适用：此 State 未包含 kickoff call": 7,
+    "原题前提不适用：today 未命名具体星期": 2,
+    "原题标准需复核：true 的 structural starch 与 false 排除 cookie/wafer 存在解释重叠": 1,
+    "评分跨度超过0.25个等级": 1
+  },
+  "requests": 330,
+  "successful_requests": 330,
+  "answers": 4060,
+  "usage": {
+    "input_tokens": 626290,
+    "output_tokens": 255055
+  },
+  "errors": [],
+  "model": "jev-1.13.0",
+  "repeats": 5,
+  "independently_verified_gold": false,
+  "review_categories": {
+    "stability_flagged": 60,
+    "definition_flagged": 28,
+    "both": 6
+  }
+}

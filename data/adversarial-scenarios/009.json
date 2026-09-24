@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-eb2af7171d0e",
+  "title": "分类虚拟卡使用咨询",
+  "state": "How many disposable virtual cards can I make per day?",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/009-noul-001.json",
+      "data/adversarial-questions/009-noul-002.json",
+      "data/adversarial-questions/009-noul-003.json",
+      "data/adversarial-questions/009-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/009-choice-001.json",
+      "data/adversarial-questions/009-choice-002.json",
+      "data/adversarial-questions/009-choice-003.json",
+      "data/adversarial-questions/009-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/009-score-001.json",
+      "data/adversarial-questions/009-score-002.json"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-08fb60b7b24e",
+  "title": "查询标普ETF上月统计",
+  "state": "spy stats for the last month",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/064-noul-001.json",
+      "data/adversarial-questions/064-noul-002.json",
+      "data/adversarial-questions/064-noul-003.json",
+      "data/adversarial-questions/064-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/064-choice-001.json",
+      "data/adversarial-questions/064-choice-002.json",
+      "data/adversarial-questions/064-choice-003.json",
+      "data/adversarial-questions/064-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/064-score-001.json",
+      "data/adversarial-questions/064-score-002.json"
+    ]
+  }
+}

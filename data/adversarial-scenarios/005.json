@@ -1,0 +1,56 @@
+{
+  "scenario_id": "official-U-0ba2af7c3f9f",
+  "title": "核查重复扣款与密码重置请求",
+  "state": {
+    "support": {
+      "tickets": [
+        {
+          "message": "I was charged twice for order A-104."
+        },
+        {
+          "message": "How do I reset my password?"
+        }
+      ]
+    },
+    "commerce": {
+      "orders": [
+        {
+          "id": "A-104",
+          "charges": [
+            {
+              "amount_usd": 49,
+              "status": "captured"
+            },
+            {
+              "amount_usd": 49,
+              "status": "captured"
+            }
+          ]
+        }
+      ]
+    },
+    "account": {
+      "security": {
+        "password_reset": "Email a reset link to the address on file."
+      }
+    }
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/005-noul-001.json",
+      "data/adversarial-questions/005-noul-002.json",
+      "data/adversarial-questions/005-noul-003.json",
+      "data/adversarial-questions/005-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/005-choice-001.json",
+      "data/adversarial-questions/005-choice-002.json",
+      "data/adversarial-questions/005-choice-003.json",
+      "data/adversarial-questions/005-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/005-score-001.json",
+      "data/adversarial-questions/005-score-002.json"
+    ]
+  }
+}

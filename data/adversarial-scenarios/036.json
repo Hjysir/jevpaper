@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-7981dec4a16e",
+  "title": "提取收据应发送到的邮箱",
+  "state": "From: Dana Whit <dana.whit@acme-corp.com>\nTo: billing@acme-corp.com\nCc: orders@acme-corp.com\nReply-To: dana.personal@gmail.com\n\nHi team - please don't use the billing alias for this one. Send my receipt to my\npersonal address instead. Thanks, Dana.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/036-noul-001.json",
+      "data/adversarial-questions/036-noul-002.json",
+      "data/adversarial-questions/036-noul-003.json",
+      "data/adversarial-questions/036-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/036-choice-001.json",
+      "data/adversarial-questions/036-choice-002.json",
+      "data/adversarial-questions/036-choice-003.json",
+      "data/adversarial-questions/036-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/036-score-001.json",
+      "data/adversarial-questions/036-score-002.json"
+    ]
+  }
+}

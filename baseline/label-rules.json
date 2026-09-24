@@ -1,0 +1,20 @@
+{
+  "repeats": 5,
+  "noul": {
+    "same_band_all_runs": true,
+    "false_lte": 0.4,
+    "true_gte": 0.6,
+    "max_probability_range": 0.1
+  },
+  "choice": {
+    "same_winner_all_runs": true,
+    "min_winner_probability": 0.7,
+    "max_winner_probability_range": 0.1
+  },
+  "score": {
+    "same_top_level_all_runs": true,
+    "min_top_level_probability": 0.7,
+    "max_score_range": 0.25
+  },
+  "notes": "Project-selected conservative screening, not official thresholds. Labels are Jev consensus pseudo-labels, not independently verified gold. Confidence is retained separately and is not used as top-label probability."
+}

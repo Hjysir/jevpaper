@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "dataset_sha256": "04f440a725dbad51c8807dfebe33c048367c3475c729c03fd2719874253c25a8",
+  "raw_payload_hash_verified": 812,
+  "no_previous_response_reuse": true,
+  "strict_errors": 411,
+  "failed_requests": 0,
+  "diagnostic_calls_separate": 12
+}

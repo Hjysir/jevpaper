@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-7f6406e52f1f",
+  "title": "判断提现故障的紧急程度",
+  "state": "Help! My payouts have been failing for 3 days.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/003-noul-001.json",
+      "data/adversarial-questions/003-noul-002.json",
+      "data/adversarial-questions/003-noul-003.json",
+      "data/adversarial-questions/003-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/003-choice-001.json",
+      "data/adversarial-questions/003-choice-002.json",
+      "data/adversarial-questions/003-choice-003.json",
+      "data/adversarial-questions/003-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/003-score-001.json",
+      "data/adversarial-questions/003-score-002.json"
+    ]
+  }
+}

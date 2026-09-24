@@ -1,0 +1,86 @@
+{
+  "scenario_id": "official-U-dbd7d4b4f8b3",
+  "title": "检查天气查询的工具调用是否正确",
+  "state": {
+    "request": {
+      "text": "What's the weather in Seattle tomorrow in Fahrenheit?",
+      "location": "Seattle, WA",
+      "date": "2026-09-03",
+      "unit": "fahrenheit"
+    },
+    "available_tools": {
+      "geocode_city": {
+        "description": "Resolve a city to latitude and longitude.",
+        "parameters": {
+          "city": "string"
+        }
+      },
+      "get_weather": {
+        "description": "Get the forecast for coordinates and a date.",
+        "parameters": {
+          "latitude": "number",
+          "longitude": "number",
+          "date": "YYYY-MM-DD",
+          "unit": [
+            "fahrenheit",
+            "celsius"
+          ]
+        }
+      }
+    },
+    "trace": {
+      "tool_calls": [
+        {
+          "id": "call_1",
+          "name": "geocode_city",
+          "arguments": {
+            "city": "Seattle, WA"
+          }
+        },
+        {
+          "id": "call_2",
+          "name": "get_weather",
+          "arguments": {
+            "latitude": 47.6062,
+            "longitude": -122.3321,
+            "date": "2026-09-03",
+            "unit": "celsius"
+          }
+        }
+      ],
+      "tool_results": [
+        {
+          "tool_call_id": "call_1",
+          "output": {
+            "latitude": 47.6062,
+            "longitude": -122.3321
+          }
+        }
+      ]
+    }
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/007-noul-001.json",
+      "data/adversarial-questions/007-noul-002.json",
+      "data/adversarial-questions/007-noul-003.json",
+      "data/adversarial-questions/007-noul-004.json",
+      "data/adversarial-questions/007-noul-005.json",
+      "data/adversarial-questions/007-noul-006.json",
+      "data/adversarial-questions/007-noul-007.json",
+      "data/adversarial-questions/007-noul-008.json",
+      "data/adversarial-questions/007-noul-009.json",
+      "data/adversarial-questions/007-noul-010.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/007-choice-001.json",
+      "data/adversarial-questions/007-choice-002.json",
+      "data/adversarial-questions/007-choice-003.json",
+      "data/adversarial-questions/007-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/007-score-001.json",
+      "data/adversarial-questions/007-score-002.json"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "scenarios": 66,
+  "questions": 812,
+  "samples": 9744,
+  "categories": {
+    "Q1": 812,
+    "Q2": 812,
+    "Q3": 812,
+    "S1": 812,
+    "S2": 812,
+    "S3": 812,
+    "T1": 812,
+    "T2": 812,
+    "T3": 812,
+    "P1": 812,
+    "P2": 812,
+    "P3": 812
+  },
+  "label_sources": {
+    "human_review": 143,
+    "jev_default": 669
+  },
+  "semantic_review": {
+    "pending": 9744
+  },
+  "s3_reversible": 812,
+  "full_run": {
+    "clean": {
+      "n": 812,
+      "strict_errors": 79
+    },
+    "Q1": {
+      "n": 812,
+      "strict_errors": 85
+    },
+    "Q2": {
+      "n": 812,
+      "strict_errors": 82
+    },
+    "Q3": {
+      "n": 812,
+      "strict_errors": 140
+    },
+    "S1": {
+      "n": 812,
+      "strict_errors": 83
+    },
+    "S2": {
+      "n": 812,
+      "strict_errors": 81
+    },
+    "S3": {
+      "n": 812,
+      "strict_errors": 211
+    },
+    "T1": {
+      "n": 812,
+      "strict_errors": 96
+    },
+    "T2": {
+      "n": 812,
+      "strict_errors": 250
+    },
+    "T3": {
+      "n": 812,
+      "strict_errors": 186
+    },
+    "P1": {
+      "n": 812,
+      "strict_errors": 197
+    },
+    "P2": {
+      "n": 812,
+      "strict_errors": 210
+    },
+    "P3": {
+      "n": 812,
+      "strict_errors": 189
+    }
+  },
+  "s3_v5": {
+    "n": 812,
+    "deviations": 548,
+    "clean_correct": 733,
+    "new_deviations": 474
+  },
+  "current_adbeta_canonical_sha256": "1fc2a633c6a2d58d8f2a2dca56044c7172c61320378d6b294c8f8e4d6b28a564"
+}

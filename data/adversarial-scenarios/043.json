@@ -1,0 +1,25 @@
+{
+  "scenario_id": "official-U-4e10abf881bd",
+  "title": "根据简历评估产品工程师候选人",
+  "state": {
+    "resume": "SASHA BERNOULLI\nSan Francisco, CA | sasha.bernoulli@email.com | github.com/sashabernoulli | linkedin.com/in/sashabernoulli\n\nPROFESSIONAL SUMMARY\nExperienced Product Engineer building developer-focused tools and platforms. Expertise in full-stack development with deep specialization in frontend architecture and UI/UX for technical audiences. Proven track record of shipping products that increase developer productivity and improve developer experience.\n\nEXPERIENCE\n\nSenior Product Engineer | CloudSync Systems | San Francisco, CA | Jan 2022 - Present\n- Led frontend architecture redesign for cloud orchestration dashboard, reducing initial load time by 65% and improving TypeScript coverage from 42% to 98%\n- Designed and implemented real-time collaboration features using WebSockets and Operational Transformation for multi-developer workflows\n- Built internal API gateway and request optimization layer (Node.js/Express) that reduced backend calls by 40%, improving dashboard responsiveness\n- Mentored 3 junior engineers on frontend best practices and code quality standards\n- Tech Stack: React, TypeScript, Redux, Node.js, PostgreSQL, AWS\n\nProduct Engineer | DevTools Lab | San Francisco, CA | May 2021 - Dec 2021\n- Architected and launched IDE plugin marketplace with 50k+ downloads; designed Vue.js frontend with Electron integration\n- Implemented backend services for plugin discovery, versioning, and analytics (Python/FastAPI) handling 2M+ monthly requests\n- Optimized plugin installation pipeline, reducing time from 45s to 8s through lazy-loading and caching strategies\n- Built comprehensive monitoring and error tracking for frontend and backend systems using Datadog and custom logging\n- Tech Stack: Vue.js, Python, FastAPI, PostgreSQL, Redis, Docker\n\nSoftware Engineer | Nexus Networks | San Francisco, CA | Jan 2021 - Apr 2021\n- Developed interactive network topology visualization tool using D3.js and WebGL for rendering 10k+ nodes in real-time\n- Created REST API endpoints for network state management and device configuration (Go/Gin framework)\n- Implemented real-time data sync between frontend and backend using gRPC, reducing latency by 50%\n- Contributed to SDK documentation and developer guides for third-party integrations\n- Tech Stack: React, D3.js, Go, PostgreSQL, Kubernetes\n\nJunior Software Engineer | CodePath Systems | San Francisco, CA | Jun 2020 - Jan 2021\n- Built responsive web interfaces for code analysis tools using React and CSS-in-JS\n- Developed backend microservices for code parsing and analysis (Java/Spring Boot)\n- Optimized database queries reducing API response times by 30%\n- Tech Stack: React, JavaScript, Java, Spring Boot, MySQL\n\nSKILLS\n\nFrontend: React, Vue.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, D3.js, WebGL, Webpack, Tailwind CSS, Material-UI\nBackend: Node.js, Python (FastAPI), Go, Java (Spring Boot), SQL (PostgreSQL, MySQL), Redis, MongoDB\nDeveloper Tools: Git, Docker, Kubernetes, GitHub Actions, Datadog, New Relic\nSpecializations: Developer Experience, API Design, Real-time Systems, Performance Optimization, UI/UX for Technical Users\n\nEDUCATION\n\nB.S. Computer Science | University of California, Berkeley | 2019\nRelevant Coursework: Data Structures, Algorithms, Systems Design, Databases, Web Development\n\nCERTIFICATIONS & ACHIEVEMENTS\n- AWS Certified Solutions Architect (Associate) - 2021\n- Open Source Contributor: React Query (20+ merged PRs), Electron (5+ merged PRs)\n- Speaker: \"Building Developer-First UI\" at React Conference 2022"
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/043-noul-001.json",
+      "data/adversarial-questions/043-noul-002.json",
+      "data/adversarial-questions/043-noul-003.json",
+      "data/adversarial-questions/043-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/043-choice-001.json",
+      "data/adversarial-questions/043-choice-002.json",
+      "data/adversarial-questions/043-choice-003.json",
+      "data/adversarial-questions/043-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/043-score-001.json",
+      "data/adversarial-questions/043-score-002.json"
+    ]
+  }
+}

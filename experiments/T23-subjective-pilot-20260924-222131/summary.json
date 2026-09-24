@@ -1,0 +1,183 @@
+{
+  "model": "jev-1.13.0",
+  "calls": 180,
+  "complete": true,
+  "questions": 12,
+  "scenarios": 6,
+  "repetitions": 3,
+  "label_sources": {
+    "human_review": 7,
+    "jev_default": 5
+  },
+  "overall": {
+    "clean": {
+      "n": 36,
+      "errors": 6,
+      "error_rate": 0.16666666666666666,
+      "clean_correct_pairs": 30,
+      "new_errors": 0,
+      "new_error_rate": 0.0
+    },
+    "old_T2": {
+      "n": 36,
+      "errors": 12,
+      "error_rate": 0.3333333333333333,
+      "clean_correct_pairs": 30,
+      "new_errors": 6,
+      "new_error_rate": 0.2
+    },
+    "old_T3": {
+      "n": 36,
+      "errors": 15,
+      "error_rate": 0.4166666666666667,
+      "clean_correct_pairs": 30,
+      "new_errors": 9,
+      "new_error_rate": 0.3
+    },
+    "subjective_T2": {
+      "n": 36,
+      "errors": 15,
+      "error_rate": 0.4166666666666667,
+      "clean_correct_pairs": 30,
+      "new_errors": 9,
+      "new_error_rate": 0.3
+    },
+    "analogy_T3": {
+      "n": 36,
+      "errors": 9,
+      "error_rate": 0.25,
+      "clean_correct_pairs": 30,
+      "new_errors": 3,
+      "new_error_rate": 0.1
+    }
+  },
+  "by_type": {
+    "noul": {
+      "clean": {
+        "n": 12,
+        "errors": 0,
+        "error_rate": 0.0,
+        "clean_correct_pairs": 12,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      },
+      "old_T2": {
+        "n": 12,
+        "errors": 0,
+        "error_rate": 0.0,
+        "clean_correct_pairs": 12,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      },
+      "old_T3": {
+        "n": 12,
+        "errors": 0,
+        "error_rate": 0.0,
+        "clean_correct_pairs": 12,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      },
+      "subjective_T2": {
+        "n": 12,
+        "errors": 0,
+        "error_rate": 0.0,
+        "clean_correct_pairs": 12,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      },
+      "analogy_T3": {
+        "n": 12,
+        "errors": 0,
+        "error_rate": 0.0,
+        "clean_correct_pairs": 12,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      }
+    },
+    "choice": {
+      "clean": {
+        "n": 12,
+        "errors": 0,
+        "error_rate": 0.0,
+        "clean_correct_pairs": 12,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      },
+      "old_T2": {
+        "n": 12,
+        "errors": 0,
+        "error_rate": 0.0,
+        "clean_correct_pairs": 12,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      },
+      "old_T3": {
+        "n": 12,
+        "errors": 3,
+        "error_rate": 0.25,
+        "clean_correct_pairs": 12,
+        "new_errors": 3,
+        "new_error_rate": 0.25
+      },
+      "subjective_T2": {
+        "n": 12,
+        "errors": 3,
+        "error_rate": 0.25,
+        "clean_correct_pairs": 12,
+        "new_errors": 3,
+        "new_error_rate": 0.25
+      },
+      "analogy_T3": {
+        "n": 12,
+        "errors": 0,
+        "error_rate": 0.0,
+        "clean_correct_pairs": 12,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      }
+    },
+    "score": {
+      "clean": {
+        "n": 12,
+        "errors": 6,
+        "error_rate": 0.5,
+        "clean_correct_pairs": 6,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      },
+      "old_T2": {
+        "n": 12,
+        "errors": 12,
+        "error_rate": 1.0,
+        "clean_correct_pairs": 6,
+        "new_errors": 6,
+        "new_error_rate": 1.0
+      },
+      "old_T3": {
+        "n": 12,
+        "errors": 12,
+        "error_rate": 1.0,
+        "clean_correct_pairs": 6,
+        "new_errors": 6,
+        "new_error_rate": 1.0
+      },
+      "subjective_T2": {
+        "n": 12,
+        "errors": 12,
+        "error_rate": 1.0,
+        "clean_correct_pairs": 6,
+        "new_errors": 6,
+        "new_error_rate": 1.0
+      },
+      "analogy_T3": {
+        "n": 12,
+        "errors": 9,
+        "error_rate": 0.75,
+        "clean_correct_pairs": 6,
+        "new_errors": 3,
+        "new_error_rate": 0.5
+      }
+    }
+  },
+  "scoring": "Strict adopted labels, original inclusive intervals; no Score widening. Paired clean uses fresh same-round results. Repeats are not independent questions."
+}

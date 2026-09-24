@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-e732dee6dd38",
+  "title": "评估 API 报错对订单处理的影响",
+  "state": "Our API integration started returning 500 errors on every request about 20 minutes ago, and we can't process any customer orders until this is fixed.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/021-noul-001.json",
+      "data/adversarial-questions/021-noul-002.json",
+      "data/adversarial-questions/021-noul-003.json",
+      "data/adversarial-questions/021-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/021-choice-001.json",
+      "data/adversarial-questions/021-choice-002.json",
+      "data/adversarial-questions/021-choice-003.json",
+      "data/adversarial-questions/021-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/021-score-001.json",
+      "data/adversarial-questions/021-score-002.json"
+    ]
+  }
+}

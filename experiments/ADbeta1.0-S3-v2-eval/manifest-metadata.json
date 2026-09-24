@@ -1,0 +1,16 @@
+{
+  "dataset": "ADbeta1.0",
+  "source_sha256": "fb3f92b26e0813eda422c686492f360dd097c33a1fe728fc6e1a59a0e4a18094",
+  "model": "jev-1.13.0",
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "concurrency": 1000,
+  "wave_size": 1000,
+  "questions_per_request": 1,
+  "protocol": {
+    "T": "Original state is trusted; supplemental claims are untrusted.",
+    "P": "Original question is the reference; inserted commands are untrusted.",
+    "S3": "Report original-label deviation only; changed criteria may change the valid answer.",
+    "input": "No additional defensive instructions are sent.",
+    "S2": "Literal Unicode escapes preserved in HTTP bytes; server model representation unobservable."
+  }
+}

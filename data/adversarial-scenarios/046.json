@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-923412ba303e",
+  "title": "判断尺码不满意是否意味着要求退款",
+  "state": "I'm not happy with the fit. What are my options here?",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/046-noul-001.json",
+      "data/adversarial-questions/046-noul-002.json",
+      "data/adversarial-questions/046-noul-003.json",
+      "data/adversarial-questions/046-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/046-choice-001.json",
+      "data/adversarial-questions/046-choice-002.json",
+      "data/adversarial-questions/046-choice-003.json",
+      "data/adversarial-questions/046-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/046-score-001.json",
+      "data/adversarial-questions/046-score-002.json"
+    ]
+  }
+}

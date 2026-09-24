@@ -1,0 +1,41 @@
+{
+  "scenario_id": "official-U-57da9d585463",
+  "title": "识别冒充工资奖金的钓鱼邮件",
+  "state": {
+    "message": {
+      "sender": {
+        "display_name": "Acme Payroll",
+        "email": "rewards@claim-bonus.example"
+      },
+      "subject": "Urgent: claim your employee bonus",
+      "body": "You have been selected for a $1,000 bonus. Confirm your payroll password today to receive it.",
+      "links": [
+        {
+          "text": "Claim bonus",
+          "url": "http://claim-bonus.example/acme"
+        }
+      ]
+    }
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/006-noul-001.json",
+      "data/adversarial-questions/006-noul-002.json",
+      "data/adversarial-questions/006-noul-003.json",
+      "data/adversarial-questions/006-noul-004.json",
+      "data/adversarial-questions/006-noul-005.json",
+      "data/adversarial-questions/006-noul-006.json",
+      "data/adversarial-questions/006-noul-007.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/006-choice-001.json",
+      "data/adversarial-questions/006-choice-002.json",
+      "data/adversarial-questions/006-choice-003.json",
+      "data/adversarial-questions/006-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/006-score-001.json",
+      "data/adversarial-questions/006-score-002.json"
+    ]
+  }
+}

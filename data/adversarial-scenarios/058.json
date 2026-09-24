@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-d76ab7e06afc",
+  "title": "总结本周市场表现",
+  "state": "how did the market do this week",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/058-noul-001.json",
+      "data/adversarial-questions/058-noul-002.json",
+      "data/adversarial-questions/058-noul-003.json",
+      "data/adversarial-questions/058-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/058-choice-001.json",
+      "data/adversarial-questions/058-choice-002.json",
+      "data/adversarial-questions/058-choice-003.json",
+      "data/adversarial-questions/058-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/058-score-001.json",
+      "data/adversarial-questions/058-score-002.json"
+    ]
+  }
+}

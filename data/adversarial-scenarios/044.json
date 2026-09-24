@@ -1,0 +1,26 @@
+{
+  "scenario_id": "official-U-dd88fef171ec",
+  "title": "判断冰淇淋三明治是否符合定义",
+  "state": {
+    "food": "Ice cream sandwich",
+    "definition": "An ice cream sandwich is a frozen dessert with a layer of ice cream between two cookies, wafers, or thin pieces of cake."
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/044-noul-001.json",
+      "data/adversarial-questions/044-noul-002.json",
+      "data/adversarial-questions/044-noul-003.json",
+      "data/adversarial-questions/044-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/044-choice-001.json",
+      "data/adversarial-questions/044-choice-002.json",
+      "data/adversarial-questions/044-choice-003.json",
+      "data/adversarial-questions/044-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/044-score-001.json",
+      "data/adversarial-questions/044-score-002.json"
+    ]
+  }
+}

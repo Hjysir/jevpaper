@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-7cb809d9f1a5",
+  "title": "判断用户是否要求转人工客服",
+  "state": "I have asked three times now. Can I please just talk to a real person?",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/018-noul-001.json",
+      "data/adversarial-questions/018-noul-002.json",
+      "data/adversarial-questions/018-noul-003.json",
+      "data/adversarial-questions/018-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/018-choice-001.json",
+      "data/adversarial-questions/018-choice-002.json",
+      "data/adversarial-questions/018-choice-003.json",
+      "data/adversarial-questions/018-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/018-score-001.json",
+      "data/adversarial-questions/018-score-002.json"
+    ]
+  }
+}

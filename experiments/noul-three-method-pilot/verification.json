@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "unique_calls": 288,
+  "questions": 24,
+  "repeats": 3,
+  "raw_append_only_validated": 72,
+  "clean_errors": 0,
+  "request_failures": 0
+}

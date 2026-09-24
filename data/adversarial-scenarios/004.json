@@ -1,0 +1,26 @@
+{
+  "scenario_id": "official-U-fcdd4130393e",
+  "title": "判断航班取消后能否退款",
+  "state": {
+    "ticket_message": "My flight was cancelled. Can I get a refund?",
+    "refund_policy": "Cancelled flights are eligible for a full refund."
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/004-noul-001.json",
+      "data/adversarial-questions/004-noul-002.json",
+      "data/adversarial-questions/004-noul-003.json",
+      "data/adversarial-questions/004-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/004-choice-001.json",
+      "data/adversarial-questions/004-choice-002.json",
+      "data/adversarial-questions/004-choice-003.json",
+      "data/adversarial-questions/004-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/004-score-001.json",
+      "data/adversarial-questions/004-score-002.json"
+    ]
+  }
+}

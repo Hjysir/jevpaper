@@ -1,0 +1,157 @@
+[
+  {
+    "archive": "01-core-benchmark-and-experiments.tar.xz",
+    "bytes": 6404900,
+    "sha256": "814f0eb87941d46454f86aa242ebdaa8b711a7834a9e8be27ef2726d92a576a0",
+    "parts": [
+      {
+        "path": "archives/01-core-benchmark-and-experiments.tar.xz.part001",
+        "bytes": 4194304,
+        "sha256": "83138cf194aa0267c5c710019c5bb4ff57f18f52833bb30f0daf7e873335f22f"
+      },
+      {
+        "path": "archives/01-core-benchmark-and-experiments.tar.xz.part002",
+        "bytes": 2210596,
+        "sha256": "1bbda4ad06adc547fe3e363e3b0a0370db37ae25f8946a2fdb0d7fa8ae281c0a"
+      }
+    ]
+  },
+  {
+    "archive": "02-benchmark-lineage-and-examples.tar.xz",
+    "bytes": 18903296,
+    "sha256": "c471aa91c03523469f51293dd760ed14da0c25ed69acbac44cd51c74502eb435",
+    "parts": [
+      {
+        "path": "archives/02-benchmark-lineage-and-examples.tar.xz.part001",
+        "bytes": 4194304,
+        "sha256": "0b750d7a70fd1caf57e4f33c6c355a7c9e2451422fcb675cecb78a3b33c9b9fd"
+      },
+      {
+        "path": "archives/02-benchmark-lineage-and-examples.tar.xz.part002",
+        "bytes": 4194304,
+        "sha256": "91a8832cbff053208d8e1a70f87f938aff2c5e1c58523c7e4f1744c06e4411ad"
+      },
+      {
+        "path": "archives/02-benchmark-lineage-and-examples.tar.xz.part003",
+        "bytes": 4194304,
+        "sha256": "590d2ab26627ab7b34630500435b78bfac9165f40da96ed5e8189fb004267751"
+      },
+      {
+        "path": "archives/02-benchmark-lineage-and-examples.tar.xz.part004",
+        "bytes": 4194304,
+        "sha256": "7c77b16084417e70d5bab7acb35d6c189af6e3f6494ece9178eae9ea3d4dc341"
+      },
+      {
+        "path": "archives/02-benchmark-lineage-and-examples.tar.xz.part005",
+        "bytes": 2126080,
+        "sha256": "f72b365092c36a9005b1286e4cafcc1df797281ad0d1d609e45022e73decfeff"
+      }
+    ]
+  },
+  {
+    "archive": "03-external-benchmarks-and-audits.tar.xz",
+    "bytes": 55491464,
+    "sha256": "73409be6dabee7df5bccec3bbbe068ae6bc725d85d0ce7579fc6a2fcb99af362",
+    "parts": [
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part001",
+        "bytes": 4194304,
+        "sha256": "c66ef08acbb0d828f74591392cf7f18015c9a056a44fd6d41c38ab64b090f4ee"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part002",
+        "bytes": 4194304,
+        "sha256": "4226c21c6154ceb57688da2e4635c03e772abcc3762ef74dcab19893a6da7952"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part003",
+        "bytes": 4194304,
+        "sha256": "7447b6722dfbcadf1ece20c0c45650c55d61a899ff7bc00e8c44c0cd17c3cff0"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part004",
+        "bytes": 4194304,
+        "sha256": "3ffd3929fcae46d0c679b02aca06ecff14467c78281fb2a6d9446e1531bb9851"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part005",
+        "bytes": 4194304,
+        "sha256": "12d96df7acd187478d0ddb60362c706ba76c4951fe79567ddff8d9e8e8bcc45b"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part006",
+        "bytes": 4194304,
+        "sha256": "b359c0ec769cb44f0972c5b85f10fc8c48227be917c230e980d9a2ca151484bf"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part007",
+        "bytes": 4194304,
+        "sha256": "291fe3062df5be366d117beb00d7fadefca4871e22a170342e53d47c895e3919"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part008",
+        "bytes": 4194304,
+        "sha256": "8503863aba56749e177027ee2ebec8a3123b28b9b00e9fa8f014b54190dd85d2"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part009",
+        "bytes": 4194304,
+        "sha256": "494080edc8af95008f9f0bf403bf5fe38fe7fe28a1a3e658efbbb2561346c722"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part010",
+        "bytes": 4194304,
+        "sha256": "fe5a72c5ee3cb47250082d9b9271194737d85f4dc551bf33d9492bab8b250108"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part011",
+        "bytes": 4194304,
+        "sha256": "d87681bba1c82155c3e5a78c00d7de7ca61a8f7b75ef92b5ef5ca324800708c7"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part012",
+        "bytes": 4194304,
+        "sha256": "5586e2b8110c8e89ba63657582e312fe16febc0ba376cc4fb53fdc5635340f72"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part013",
+        "bytes": 4194304,
+        "sha256": "5784e18d93c29cb122625bae517d49643caa218b0caee5fac7fd6f5a9e3baf24"
+      },
+      {
+        "path": "archives/03-external-benchmarks-and-audits.tar.xz.part014",
+        "bytes": 965512,
+        "sha256": "72d2f88b43e51e74368a292c717a24f0c890cb4295a94cf71f48c80d2c82cfba"
+      }
+    ]
+  },
+  {
+    "archive": "04-official-docs-and-source-catalogs.tar.xz",
+    "bytes": 4975024,
+    "sha256": "2d27af5262b3e6324f8896443e393b43253715ff0111ddba0e4c270d9ed975c6",
+    "parts": [
+      {
+        "path": "archives/04-official-docs-and-source-catalogs.tar.xz.part001",
+        "bytes": 4194304,
+        "sha256": "92496fa26268751c4e6c80633f44194a0e34637678247697a411a5f82b0de1ea"
+      },
+      {
+        "path": "archives/04-official-docs-and-source-catalogs.tar.xz.part002",
+        "bytes": 780720,
+        "sha256": "2b6d22189c7087e0291e20b6e5db428228fdec99ec33ace42119f117857a979d"
+      }
+    ]
+  },
+  {
+    "archive": "05-workbench-and-review-history.tar.xz",
+    "bytes": 61756,
+    "sha256": "c59e55ef0ec4ade267ff2880100a6d54cb187675e28f6d36c52d159b557f78e5",
+    "parts": [
+      {
+        "path": "archives/05-workbench-and-review-history.tar.xz.part001",
+        "bytes": 61756,
+        "sha256": "c59e55ef0ec4ade267ff2880100a6d54cb187675e28f6d36c52d159b557f78e5"
+      }
+    ]
+  }
+]

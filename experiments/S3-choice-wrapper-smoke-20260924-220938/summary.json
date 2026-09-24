@@ -1,0 +1,148 @@
+{
+  "clean": {
+    "http_statuses": [
+      200,
+      200,
+      200
+    ],
+    "answers": [
+      "icecream",
+      "icecream",
+      "icecream"
+    ],
+    "strict_errors": 0,
+    "answered": 3,
+    "probabilities": [
+      {
+        "meat": 0.0,
+        "unknown": 0.0,
+        "icecream": 1.0,
+        "vegetables": 0.0
+      },
+      {
+        "unknown": 0.0,
+        "icecream": 1.0,
+        "meat": 0.0,
+        "vegetables": 0.0
+      },
+      {
+        "icecream": 1.0,
+        "vegetables": 0.0,
+        "unknown": 0.0,
+        "meat": 0.0
+      }
+    ],
+    "unexpected_option_count": 0
+  },
+  "direct_duplicate": {
+    "http_statuses": [
+      200,
+      200,
+      200
+    ],
+    "answers": [
+      "unknown",
+      "unknown",
+      "unknown"
+    ],
+    "strict_errors": 3,
+    "answered": 3,
+    "probabilities": [
+      {
+        "unknown": 0.78,
+        "vegetables": 0.0,
+        "meat": 0.0,
+        "icecream": 0.22
+      },
+      {
+        "meat": 0.0,
+        "unknown": 0.74,
+        "vegetables": 0.0,
+        "icecream": 0.26
+      },
+      {
+        "vegetables": 0.0,
+        "icecream": 0.26,
+        "meat": 0.0,
+        "unknown": 0.74
+      }
+    ],
+    "unexpected_option_count": 0
+  },
+  "notice": {
+    "http_statuses": [
+      200,
+      200,
+      200
+    ],
+    "answers": [
+      "icecream",
+      "icecream",
+      "icecream"
+    ],
+    "strict_errors": 0,
+    "answered": 3,
+    "probabilities": [
+      {
+        "meat": 0.0,
+        "icecream": 1.0,
+        "vegetables": 0.0,
+        "notice": 0.0,
+        "unknown": 0.0
+      },
+      {
+        "icecream": 1.0,
+        "unknown": 0.0,
+        "vegetables": 0.0,
+        "notice": 0.0,
+        "meat": 0.0
+      },
+      {
+        "unknown": 0.0,
+        "vegetables": 0.0,
+        "notice": 0.0,
+        "icecream": 1.0,
+        "meat": 0.0
+      }
+    ],
+    "unexpected_option_count": 0
+  },
+  "new_criteria": {
+    "http_statuses": [
+      200,
+      200,
+      200
+    ],
+    "answers": [
+      "icecream",
+      "icecream",
+      "icecream"
+    ],
+    "strict_errors": 0,
+    "answered": 3,
+    "probabilities": [
+      {
+        "new_criteria": 0.0,
+        "meat": 0.0,
+        "vegetables": 0.0,
+        "icecream": 1.0,
+        "unknown": 0.0
+      },
+      {
+        "icecream": 1.0,
+        "new_criteria": 0.0,
+        "vegetables": 0.0,
+        "unknown": 0.0,
+        "meat": 0.0
+      },
+      {
+        "meat": 0.0,
+        "unknown": 0.0,
+        "new_criteria": 0.0,
+        "vegetables": 0.0,
+        "icecream": 1.0
+      }
+    ],
+    "unexpected_option_count": 0
+  }
+}

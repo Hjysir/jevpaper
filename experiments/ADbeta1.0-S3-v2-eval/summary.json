@@ -1,0 +1,81 @@
+{
+  "dataset_sha256": "fb3f92b26e0813eda422c686492f360dd097c33a1fe728fc6e1a59a0e4a18094",
+  "category": "S3",
+  "revision": "S3-v2",
+  "model": "jev-1.13.0",
+  "complete": true,
+  "failures": [],
+  "overall": {
+    "answered": 812,
+    "strict_errors": 407,
+    "strict_error_rate": 0.5012315270935961
+  },
+  "by_type": {
+    "noul": {
+      "answered": 314,
+      "strict_errors": 13,
+      "strict_error_rate": 0.041401273885350316
+    },
+    "choice": {
+      "answered": 337,
+      "strict_errors": 240,
+      "strict_error_rate": 0.712166172106825
+    },
+    "score": {
+      "answered": 161,
+      "strict_errors": 154,
+      "strict_error_rate": 0.9565217391304348
+    }
+  },
+  "previous_overall": {
+    "answered": 812,
+    "strict_errors": 211,
+    "strict_error_rate": 0.25985221674876846
+  },
+  "previous_by_type": {
+    "noul": {
+      "answered": 314,
+      "strict_errors": 12,
+      "strict_error_rate": 0.03821656050955414
+    },
+    "choice": {
+      "answered": 337,
+      "strict_errors": 47,
+      "strict_error_rate": 0.1394658753709199
+    },
+    "score": {
+      "answered": 161,
+      "strict_errors": 152,
+      "strict_error_rate": 0.9440993788819876
+    }
+  },
+  "execution": {
+    "started_at": "2026-09-24T12:45:39.544350+00:00",
+    "concurrency": 1000,
+    "wave_size": 1000,
+    "questions_per_request": 1,
+    "planned_requests": 812,
+    "dataset_sha256": "fb3f92b26e0813eda422c686492f360dd097c33a1fe728fc6e1a59a0e4a18094",
+    "model": "jev-1.13.0",
+    "finished_at": "2026-09-24T12:45:48.017269+00:00",
+    "peak_concurrent_requests": 812,
+    "stats": {
+      "http_calls": 812,
+      "http_200": 812,
+      "ok": 812
+    }
+  },
+  "scoring": "Strict exact labels; inclusive original intervals; no Score tolerance widening.",
+  "previous_results": "ADbeta1.0-jev-eval-1000/results.jsonl",
+  "transition": {
+    "old_True_new_True": 395,
+    "old_True_new_False": 206,
+    "old_False_new_True": 10,
+    "old_False_new_False": 201
+  },
+  "new_errors_given_old_clean_correct": {
+    "answered": 733,
+    "strict_errors": 334,
+    "strict_error_rate": 0.45566166439290584
+  }
+}

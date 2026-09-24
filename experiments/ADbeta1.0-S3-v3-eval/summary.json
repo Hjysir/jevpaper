@@ -1,0 +1,109 @@
+{
+  "dataset_sha256": "04f440a725dbad51c8807dfebe33c048367c3475c729c03fd2719874253c25a8",
+  "category": "S3",
+  "revision": "S3-v3",
+  "model": "jev-1.13.0",
+  "complete": true,
+  "failures": [],
+  "overall": {
+    "answered": 812,
+    "strict_errors": 411,
+    "strict_error_rate": 0.5061576354679803
+  },
+  "by_type": {
+    "noul": {
+      "answered": 314,
+      "strict_errors": 5,
+      "strict_error_rate": 0.01592356687898089
+    },
+    "choice": {
+      "answered": 337,
+      "strict_errors": 266,
+      "strict_error_rate": 0.7893175074183977
+    },
+    "score": {
+      "answered": 161,
+      "strict_errors": 140,
+      "strict_error_rate": 0.8695652173913043
+    }
+  },
+  "previous_overall": {
+    "answered": 812,
+    "strict_errors": 407,
+    "strict_error_rate": 0.5012315270935961
+  },
+  "previous_by_type": {
+    "noul": {
+      "answered": 314,
+      "strict_errors": 13,
+      "strict_error_rate": 0.041401273885350316
+    },
+    "choice": {
+      "answered": 337,
+      "strict_errors": 240,
+      "strict_error_rate": 0.712166172106825
+    },
+    "score": {
+      "answered": 161,
+      "strict_errors": 154,
+      "strict_error_rate": 0.9565217391304348
+    }
+  },
+  "execution": {
+    "started_at": "2026-09-24T13:05:34.176706+00:00",
+    "concurrency": 1000,
+    "wave_size": 1000,
+    "questions_per_request": 1,
+    "planned_requests": 812,
+    "dataset_sha256": "04f440a725dbad51c8807dfebe33c048367c3475c729c03fd2719874253c25a8",
+    "model": "jev-1.13.0",
+    "finished_at": "2026-09-24T13:05:41.640107+00:00",
+    "peak_concurrent_requests": 812,
+    "stats": {
+      "http_calls": 812,
+      "http_200": 812,
+      "ok": 812
+    }
+  },
+  "scoring": "Strict exact labels; inclusive original intervals; no Score tolerance widening.",
+  "previous_results": "ADbeta1.0-S3-v2-eval/results.jsonl",
+  "transition": {
+    "old_True_new_True": 344,
+    "old_True_new_False": 61,
+    "old_False_new_True": 57,
+    "old_False_new_False": 350
+  },
+  "new_errors_given_old_clean_correct": {
+    "answered": 733,
+    "strict_errors": 337,
+    "strict_error_rate": 0.4597544338335607
+  },
+  "by_generation_method": {
+    "add_reversed_noul_definitions": {
+      "count": 268,
+      "errors": 3,
+      "error_rate": 0.011194029850746268
+    },
+    "append_duplicate_choice_permutation": {
+      "count": 337,
+      "errors": 266,
+      "error_rate": 0.7893175074183977
+    },
+    "append_duplicate_reversed_noul": {
+      "count": 46,
+      "errors": 2,
+      "error_rate": 0.043478260869565216
+    },
+    "append_duplicate_score_criteria": {
+      "count": 161,
+      "errors": 140,
+      "error_rate": 0.8695652173913043
+    }
+  },
+  "parser_diagnostic": {
+    "diagnostic_only_not_in_main_error_rate": true,
+    "matched_values": 9,
+    "count": 12,
+    "conclusion": "Agreement is consistent with last-wins parsing, but does not prove server internals or model-visible representation. Stochastic differences cannot prove duplicate visibility either."
+  }
+}

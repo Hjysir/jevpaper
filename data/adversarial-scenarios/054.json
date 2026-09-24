@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-fb4247e02138",
+  "title": "查看英伟达一小时价格图",
+  "state": "show nvda 1h",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/054-noul-001.json",
+      "data/adversarial-questions/054-noul-002.json",
+      "data/adversarial-questions/054-noul-003.json",
+      "data/adversarial-questions/054-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/054-choice-001.json",
+      "data/adversarial-questions/054-choice-002.json",
+      "data/adversarial-questions/054-choice-003.json",
+      "data/adversarial-questions/054-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/054-score-001.json",
+      "data/adversarial-questions/054-score-002.json"
+    ]
+  }
+}

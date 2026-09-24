@@ -1,0 +1,8 @@
+{
+  "dataset": "ADbeta1.0",
+  "source_sha256": "1e3b7d54487b8d1f7cbe78fe5cab67c5932c377a4e5ef2b7b491a287f50450c0",
+  "model": "jev-1.13.0",
+  "endpoint": "https://api.typesafe.ai/v1/systemone",
+  "max_questions_per_request": 20,
+  "max_question_bytes_per_request": 60000
+}

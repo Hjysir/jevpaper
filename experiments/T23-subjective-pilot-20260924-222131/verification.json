@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "unique_calls": 180,
+  "questions": 12,
+  "variants": 5,
+  "repeats": 3,
+  "http_errors": 0,
+  "score_tolerance_widened": false
+}

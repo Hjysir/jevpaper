@@ -1,0 +1,38 @@
+{
+  "scenario_id": "official-U-88824257eed0",
+  "title": "判断列表中的词是否为水果",
+  "state": {
+    "items": [
+      "typesafe",
+      "apple",
+      "california",
+      "banana",
+      "likes",
+      "calibration",
+      "orange",
+      "vertex"
+    ]
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/045-noul-001.json",
+      "data/adversarial-questions/045-noul-002.json",
+      "data/adversarial-questions/045-noul-003.json",
+      "data/adversarial-questions/045-noul-004.json",
+      "data/adversarial-questions/045-noul-005.json",
+      "data/adversarial-questions/045-noul-006.json",
+      "data/adversarial-questions/045-noul-007.json",
+      "data/adversarial-questions/045-noul-008.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/045-choice-001.json",
+      "data/adversarial-questions/045-choice-002.json",
+      "data/adversarial-questions/045-choice-003.json",
+      "data/adversarial-questions/045-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/045-score-001.json",
+      "data/adversarial-questions/045-score-002.json"
+    ]
+  }
+}

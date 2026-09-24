@@ -1,0 +1,26 @@
+{
+  "scenario_id": "official-U-d825de2bc719",
+  "title": "核查 JWT 有效期说法是否符合引用",
+  "state": {
+    "claim": "Every JWT must include an expiration time; a token without \"exp\" is not valid.",
+    "section": "4.1.4.  \"exp\" (Expiration Time) Claim\n\n   The \"exp\" (expiration time) claim identifies the expiration time on\n   or after which the JWT MUST NOT be accepted for processing.  The\n   processing of the \"exp\" claim requires that the current date/time\n   MUST be before the expiration date/time listed in the \"exp\" claim.\n\n   Implementers MAY provide for some small leeway, usually no more than\n   a few minutes, to account for clock skew.  Its value MUST be a number\n   containing a NumericDate value.  Use of this claim is OPTIONAL."
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/025-noul-001.json",
+      "data/adversarial-questions/025-noul-002.json",
+      "data/adversarial-questions/025-noul-003.json",
+      "data/adversarial-questions/025-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/025-choice-001.json",
+      "data/adversarial-questions/025-choice-002.json",
+      "data/adversarial-questions/025-choice-003.json",
+      "data/adversarial-questions/025-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/025-score-001.json",
+      "data/adversarial-questions/025-score-002.json"
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "model": "jev-1.13.0",
+  "complete": true,
+  "methods": {
+    "clean": {
+      "calls": 72,
+      "errors": 0,
+      "error_rate": 0.0,
+      "majority_error_questions": 0,
+      "all3_error_questions": 0,
+      "questions": 24,
+      "paired_clean_correct": 72,
+      "new_errors": 0,
+      "new_error_rate": 0.0
+    },
+    "semantic_reversal": {
+      "calls": 72,
+      "errors": 0,
+      "error_rate": 0.0,
+      "majority_error_questions": 0,
+      "all3_error_questions": 0,
+      "questions": 24,
+      "paired_clean_correct": 72,
+      "new_errors": 0,
+      "new_error_rate": 0.0
+    },
+    "scope_narrowing": {
+      "calls": 72,
+      "errors": 42,
+      "error_rate": 0.5833333333333334,
+      "majority_error_questions": 14,
+      "all3_error_questions": 14,
+      "questions": 24,
+      "paired_clean_correct": 72,
+      "new_errors": 42,
+      "new_error_rate": 0.5833333333333334
+    },
+    "explicit_remapping": {
+      "calls": 72,
+      "errors": 0,
+      "error_rate": 0.0,
+      "majority_error_questions": 0,
+      "all3_error_questions": 0,
+      "questions": 24,
+      "paired_clean_correct": 72,
+      "new_errors": 0,
+      "new_error_rate": 0.0
+    }
+  },
+  "by_label": {
+    "True": {
+      "clean": {
+        "calls": 45,
+        "errors": 0,
+        "error_rate": 0.0,
+        "majority_error_questions": 0,
+        "all3_error_questions": 0,
+        "questions": 15,
+        "paired_clean_correct": 45,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      },
+      "semantic_reversal": {
+        "calls": 45,
+        "errors": 0,
+        "error_rate": 0.0,
+        "majority_error_questions": 0,
+        "all3_error_questions": 0,
+        "questions": 15,
+        "paired_clean_correct": 45,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      },
+      "scope_narrowing": {
+        "calls": 45,
+        "errors": 42,
+        "error_rate": 0.9333333333333333,
+        "majority_error_questions": 14,
+        "all3_error_questions": 14,
+        "questions": 15,
+        "paired_clean_correct": 45,
+        "new_errors": 42,
+        "new_error_rate": 0.9333333333333333
+      },
+      "explicit_remapping": {
+        "calls": 45,
+        "errors": 0,
+        "error_rate": 0.0,
+        "majority_error_questions": 0,
+        "all3_error_questions": 0,
+        "questions": 15,
+        "paired_clean_correct": 45,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      }
+    },
+    "False": {
+      "clean": {
+        "calls": 27,
+        "errors": 0,
+        "error_rate": 0.0,
+        "majority_error_questions": 0,
+        "all3_error_questions": 0,
+        "questions": 9,
+        "paired_clean_correct": 27,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      },
+      "semantic_reversal": {
+        "calls": 27,
+        "errors": 0,
+        "error_rate": 0.0,
+        "majority_error_questions": 0,
+        "all3_error_questions": 0,
+        "questions": 9,
+        "paired_clean_correct": 27,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      },
+      "scope_narrowing": {
+        "calls": 27,
+        "errors": 0,
+        "error_rate": 0.0,
+        "majority_error_questions": 0,
+        "all3_error_questions": 0,
+        "questions": 9,
+        "paired_clean_correct": 27,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      },
+      "explicit_remapping": {
+        "calls": 27,
+        "errors": 0,
+        "error_rate": 0.0,
+        "majority_error_questions": 0,
+        "all3_error_questions": 0,
+        "questions": 9,
+        "paired_clean_correct": 27,
+        "new_errors": 0,
+        "new_error_rate": 0.0
+      }
+    }
+  },
+  "label_sources": {
+    "human_review": 3,
+    "jev_default": 21
+  },
+  "sampling_limit": "24 systematically selected old-clean-correct high-margin cases out of 260 eligible. Not all 314 Noul. Each condition shares cases and 3 repeats. Model calls are not independent question samples."
+}

@@ -1,0 +1,41 @@
+{
+  "scenario_id": "official-U-8d0093ec7538",
+  "title": "判断后端工程师是否符合招聘条件",
+  "state": {
+    "resume": {
+      "name": "John Smith",
+      "location": "Oakland, CA",
+      "summary": "Backend engineer with eight years of Python and Go experience.",
+      "experience": [
+        {
+          "employer": "Google",
+          "title": "Senior Backend Engineer",
+          "years": "2021-2025"
+        },
+        {
+          "employer": "Microsoft",
+          "title": "Software Engineer",
+          "years": "2017-2021"
+        }
+      ]
+    }
+  },
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/008-noul-001.json",
+      "data/adversarial-questions/008-noul-002.json",
+      "data/adversarial-questions/008-noul-003.json",
+      "data/adversarial-questions/008-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/008-choice-001.json",
+      "data/adversarial-questions/008-choice-002.json",
+      "data/adversarial-questions/008-choice-003.json",
+      "data/adversarial-questions/008-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/008-score-001.json",
+      "data/adversarial-questions/008-score-002.json"
+    ]
+  }
+}

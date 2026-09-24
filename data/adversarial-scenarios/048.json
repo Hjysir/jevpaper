@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-6893ae5a9fb9",
+  "title": "跑鞋尺码错误，申请换货",
+  "state": "My running shoes arrived in the wrong size. Can I swap them for a size 10?",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/048-noul-001.json",
+      "data/adversarial-questions/048-noul-002.json",
+      "data/adversarial-questions/048-noul-003.json",
+      "data/adversarial-questions/048-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/048-choice-001.json",
+      "data/adversarial-questions/048-choice-002.json",
+      "data/adversarial-questions/048-choice-003.json",
+      "data/adversarial-questions/048-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/048-score-001.json",
+      "data/adversarial-questions/048-score-002.json"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-6cf797d31aa3",
+  "title": "提取发票中的指定金额",
+  "state": "Invoice INV-2087.\nSubtotal: $1,200.00\nSales tax: $115.50\nTotal due: $1,315.50\nA $50.00 courtesy credit from last month has already been applied.",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/038-noul-001.json",
+      "data/adversarial-questions/038-noul-002.json",
+      "data/adversarial-questions/038-noul-003.json",
+      "data/adversarial-questions/038-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/038-choice-001.json",
+      "data/adversarial-questions/038-choice-002.json",
+      "data/adversarial-questions/038-choice-003.json",
+      "data/adversarial-questions/038-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/038-score-001.json",
+      "data/adversarial-questions/038-score-002.json"
+    ]
+  }
+}

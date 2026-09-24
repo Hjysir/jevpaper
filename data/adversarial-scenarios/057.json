@@ -1,0 +1,23 @@
+{
+  "scenario_id": "official-U-b334ff965b3a",
+  "title": "查询可用股票代码",
+  "state": "what tickers do you have",
+  "question_files": {
+    "noul": [
+      "data/adversarial-questions/057-noul-001.json",
+      "data/adversarial-questions/057-noul-002.json",
+      "data/adversarial-questions/057-noul-003.json",
+      "data/adversarial-questions/057-noul-004.json"
+    ],
+    "choice": [
+      "data/adversarial-questions/057-choice-001.json",
+      "data/adversarial-questions/057-choice-002.json",
+      "data/adversarial-questions/057-choice-003.json",
+      "data/adversarial-questions/057-choice-004.json"
+    ],
+    "score": [
+      "data/adversarial-questions/057-score-001.json",
+      "data/adversarial-questions/057-score-002.json"
+    ]
+  }
+}
